@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=9.0">
+        <title>Siddharth Bansal</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+            <script src="https://use.fontawesome.com/873c98c23a.js"></script>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script language="JavaScript" type="text/javascript" src="script.js"></script>
+            <script>
+                $(document).ready(function(){
+                $('#menu').click(function(){
+            
+                $(this).toggleClass('fa-times')
+                $('header').toggleClass('toggle')
+                });
+                $(window).on('scroll load',function(){
+                    $('#menu').removeClass('fa-times')
+                    $('header').removeClass('toggle')
+                });
+                $('a[href*="#"]').on('click',function(e){
+                    e.preventDefault();
+                    $('html ,body').animate({
+                        scrollTop: $($(this).attr('href')).offset().top,
+                    },
+                        500,"linear"
+                    );
+                });
+            });
+            </script>
+        <!-- header starts -->
+    <header>
+        <div class="user">
+            <img src="images/sidbg-removebg-preview.jpg" alt="">
+            <h3 class="name">Siddharth Bansal</h3>
+            <p class="post">Android developer</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header ends -->
+    <div id="menu" class="fa fa-bars"></div>
+
+<!-- home section starts -->
+<section class="home" id="home">
+    <h3>HI THERE</h3>
+    <h1>I'M <span>Siddharth Bansal</span></h1>
+    <p>Enthusiastic android developer and created over 15 small mid <br>
+        size apps and have good amount of knowledge of this field,<br>
+        also have leadership with smart working and co-operative in nature.
+    </p>
+    <a href="#about"><button class="btn" >About Me<i class="fas fa-user"></i></button></a>
+</section>
+<!-- home section ends -->
+<!-- about section starts -->
+ <section class="about" id="about">
+     <h1 class="heading"><span>ABOUT</span> ME</h1>
+     <div class="row">
+         <div class="info">
+             <h3><span> name: </span> Siddharth Bansal </h3>
+             <h3><span> Dob: </span> 13 FEB 2002 </h3>
+             <h3><span> Qualification: </span> B.tech in CSE </h3>
+             <h3><span> Hobbies: </span> DIY Projects,Traveling,Sports. </h3>
+             <h3><span> Language: </span> Hindi,English </h3>
+             <a target="_blank"  href="bansal.pdf"><button class="btn">download resume <i class="fas fa-download"></i> </button></a>
+            </div>
+            <div class="counter">
+                <div class="box">
+                    <span>0-1</span>
+                    <h3>years of experience</h3>
+                </div>
+                <div class="box">
+                    <span>15+</span>
+                    <h3>projects <br>Created</h3>
+                </div>
+            </div>
+     </div>
+ </section>   
+<!-- about section ends -->
+<!-- education section starts -->
+<section class="education" id="education">
+    <h1 class="heading">My <span>Education</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2020-24</span>
+            <h3>Techno India NJR Institute Of Technology</h3>
+            <h3>B.tech Graduate CSE</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2019-20</span>
+            <h3>Central Academy Sr.Sec. School</h3>
+            <h3>Passed 12th with PCM</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2018-19</span>
+            <h3>Ascent International Sr.Sec. School</h3>
+            <h3>Passed 10th</h3>
+        </div>
+    </div>
+</section>
+<!-- education section ends -->
+<!-- projects section starts from here -->
+<section class="projects" id="projects">
+    <h1 class="heading">My <span>Projects</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/we chat.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/travel.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/videocall.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/gorf.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/Smartmmy.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/vfx.png" alt="">
+        </div>
+    </div>
+</section>
+<!-- projects section ends here -->
+<!-- contact section start -->
+<section class="contact" id="contact">
+    <h1 class="heading"> <span>Contact</span> Me</h1>
+    <div class="row">
+        <div class="content">
+            <h3 class="title">contact info</h3>
+            <div class="info">
+                <h3><i class="fas fa-envelope"></i>bsiddharth1302@gmail.com</h3>
+                <h3><i class="fas fa-phone"></i>+918824999745</h3>
+                <h3><i class="fas fa-map-marker-alt"></i>Udaipur, Rajasthan -313002</h3>                
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact section ends -->
+<!-- scrollTop button -->
+<script>
+    
+</script>
+
+
+</body>
