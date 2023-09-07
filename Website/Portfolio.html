@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <title>DakshPortFolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="Home.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Daksh PortFolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="Portfolio.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="name">Daksh Sharma</span>
+                <div>& I am a passionate Programmer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="https://github.com/DakshSharma-1501">GitHub</a></button>
+                    <button class="btn"><a href="https://www.linkedin.com/in/daksh-sharma-77a821202/">Linkdin Profile</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="Web.png" height="350px" width="400px">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>EDUCATION</h1>
+            <br>
+            <table class="T1">
+                <tr>
+                    <th>Institute Name</th>
+                    <th>Passing Year</th>
+                    <!-- <th>Aggregate Percentage</th> -->
+                </tr>
+                <tr>
+                    <td><i>10th</i></td>
+                    <td><i>2017</i></td>
+                    <!-- <td><i>64.6%</i></td> -->
+                </tr>
+                <tr>
+                    <td><i>12th</i></td>
+                    <td><i>2019</i></td>
+                    <!-- <td><i>56.5%</i></td> -->
+                </tr>
+                <tr>
+                    <td><i>Techno India NJR (B.TECH)</i></td>
+                    <td><i>2020-Present</i></td>
+                    <!-- <td><i>80.37%</i></td> -->
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <h1>SKILLS</h1>
+            <br>
+            <ul>
+                <li>Core Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>C++/C</li>
+                <li>Data Structure and Algo</li>
+            </ul>
+        </section>
+        <hr>
+        <section class="forthSection">
+            <h1>CERTIFICATES</h1>
+            <br>
+            <ul>
+                <li>Data Science</li>
+                <li>UI/UX</li>
+                <li>Fullstack development</li>
+                <li>Microsoft AI Classroom</li>
+            </ul>
+        </section>
+    </main>
+
+    <br>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3 style="color: white;">Daksh PortFolio</h3>
+            </div>
+            <!-- <div class="footer-second"></div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div> -->
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; dakshportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Developer','Prompt Engineer', 'Web Developer', 'Java Developer', 'Analyst.'],
+            typeSpeed: 80,
+        });
+    </script>
+</body>
+
+</html>
