@@ -1,0 +1,13 @@
+--------  Email JS Service ID  ---------
+
+"   service_rmgsqha   ""
+
+    service_szqk1i6
+
+--------  Template ID  ---------
+
+"   template_ks51g5q   "
+
+--------  Public Key  ---------
+
+"   V0ov5d5sirZR6mxG   "

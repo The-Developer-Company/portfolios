@@ -1,0 +1,15 @@
+@import "../../style-config/mixins.scss";
+
+.certificates-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 25px;
+    flex-direction: column;
+    border: $black;
+
+    @include small-screen {
+        margin-top: 75px;
+        flex-direction: row;
+    }
+}
