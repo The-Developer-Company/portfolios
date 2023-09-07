@@ -4,3 +4,4 @@ create your own branch and new folder then work on your portfolio
 use plain html, css and js only, or libraries which have their cdn
 
 [Ekansh](https://the-developer-company.github.io/portfolios/ekansh)
+[Sudhanshu](https://the-developer-company.github.io/portfolios/Sudhanshu)
