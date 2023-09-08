@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://web.whatsapp.com/ -->
+<html class="js serviceworker adownload cssanimations csstransitions webp exiforientation webp-alpha webp-animation webp-lossless wf-loading" dir="LTR" loc="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>(5) WhatsApp</title><meta name="viewport" content="width=device-width"><meta name="google" content="notranslate"><meta name="format-detection" content="telephone=no"><meta name="description" content="Quickly send and receive WhatsApp messages right from your computer."><meta name="og:description" content="Quickly send and receive WhatsApp messages right from your computer."><meta name="og:url" content="https://web.whatsapp.com/"><meta name="og:title" content="WhatsApp Web"><meta name="og:image" content="https://static.facebook.com/images/whatsapp/www/whatsapp-promo.png"><link rel="apple-touch-icon" sizes="194x194" href="https://web.whatsapp.com/apple-touch-icon.png" type="image/png"><meta name="theme-color" content="#111b21" media="(prefers-color-scheme: dark)"><meta name="theme-color" content="#f0f2f5"><link id="whatsapp-pwa-manifest-link" rel="manifest" href="https://web.whatsapp.com/manifest.json" crossorigin="use-credentials"><style>#initial_startup{--startup-background:#f0f2f5;--startup-background-rgb:240,242,245;--startup-icon:#bbc5cb;--secondary-lighter:#8696a0;--primary-title:#41525d;--progress-primary:#00c298;--progress-background:#e9edef}.dark #initial_startup{--startup-background:#111b21;--startup-background-rgb:17,27,33;--startup-icon:#676f73;--primary-title:rgba(233, 237, 239, 0.88);--secondary-lighter:#667781;--progress-primary:#0b846d;--progress-background:#233138}#app,body,html{width:100%;height:100%;padding:0;margin:0;overflow:hidden}#app{position:absolute;top:0;left:0}#initial_startup{position:fixed;top:0;left:0;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;user-select:none;background-color:var(--startup-background)}#initial_startup .graphic{margin-top:-40px;color:var(--startup-icon)}#initial_startup .graphic .resume-logo{transform:translateX(calc(50% - 52px / 2))}#initial_startup .graphic::after{position:relative;top:-100%;left:calc(50% - 72px * 2 - 72px / 2);display:block;width:calc(72px * 3);height:100%;content:'';background:linear-gradient(to right,rgba(var(--startup-background-rgb),.5) 0,rgba(var(--startup-background-rgb),.5) 33.33%,rgba(var(--startup-background-rgb),0) 44.1%,rgba(var(--startup-background-rgb),0) 55.8%,rgba(var(--startup-background-rgb),.5) 66.66%,rgba(var(--startup-background-rgb),.5) 100%);opacity:1;animation:shimmer 1.5s linear .6s infinite}html[dir=rtl] #initial_startup .graphic::after{animation-direction:reverse}@keyframes shimmer{from{left:calc(50% - 72px * 2 - 72px / 2)}to{left:calc(50% - 72px / 2)}}#initial_startup .progress{position:relative;width:420px;height:3px;margin-top:40px}#initial_startup .progress progress{vertical-align:top}#initial_startup .main{margin-top:40px;font-size:17px;color:var(--primary-title)}#initial_startup .secondary{margin-top:12px;font-size:14px;color:var(--secondary-lighter)}#initial_startup .secondary span{display:inline-block;margin-bottom:2px;vertical-align:middle}progress{-webkit-appearance:none;appearance:none;width:100%;height:3px;margin:0;color:var(--progress-primary);background-color:var(--progress-background);border:none}progress[value]::-webkit-progress-bar{background-color:var(--progress-background)}progress[value]::-moz-progress-bar,progress[value]::-webkit-progress-value{background-color:var(--progress-primary);transition:width .45s ease}</style><link href="./wallpaper_files/stylex-5aaa83da7cbf5a9beaffbbb330b31ee9.css" rel="stylesheet"><link href="./wallpaper_files/app-99e9e191e6b4be54ae36.css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="./wallpaper_files/main~.41fdb1fbd886b200ebab.css"><link rel="stylesheet" type="text/css" href="./wallpaper_files/main.d1308f174e2afb05db91.css"><style id="asset-style" type="text/css"></style><link rel="stylesheet" type="text/css" href="./wallpaper_files/lazy_loaded_high_priority_components.44636e5a72bd158e6325.css"><link rel="stylesheet" type="text/css" href="./wallpaper_files/lazy_loaded_low_priority_components.1377a9dc2681b5acc9d2.css"><style>@font-face {font-family:"Noto-Emoji"; src:url("/noto_emoji_regular_74a68c7003890e207589ea43dc7572ca.ttf") format("truetype");}</style><link id="favicon" rel="shortcut icon" type="image/png" href="https://web.whatsapp.com/img/f05_566b33dfb23660bf5fa83125a9dd8218.png" src="/img/f05_566b33dfb23660bf5fa83125a9dd8218.png"></head><body class="web dark"><script data-binary-transparency-hash-key="inline-js-d11c72a06542fc3b43af600028cf0f996e4b9b178dfa047e18730efaf74aab0b">try{var systemThemeDark,theme=window.localStorage.getItem("theme"),systemThemeMode=window.localStorage.getItem("system-theme-mode");if(("true"===systemThemeMode||!theme)&&window.matchMedia){var systemTheme=window.matchMedia("(prefers-color-scheme: dark)");systemThemeDark=systemTheme&&systemTheme.matches}var darkTheme='"dark"'===theme||Boolean(systemThemeDark);darkTheme&&document.body.classList.add("dark")}catch(e){}</script><div id="app"><div class="_1Fm4m _1h2dM app-wrapper-web font-fix os-win"><span></span><span></span><span></span><span></span><span></span><div tabindex="-1" class="two _1jJ70"><div id="wa-popovers-bucket"></div><div class="snyj76hw an6tjemt jbm6vef4 bbl9m3t3 ora14ekb nv3qcefw"></div><div class="_2QgSC"><div class="_2Ts6i _3RGKj _318SY"><span class="lhggkp7q qq0sjtgm ebjesfe0 jxacihee tkdu00h0"><div class="lhggkp7q qq0sjtgm ebjesfe0 jxacihee tkdu00h0" tabindex="-1" style="height: 100%; transform: translateX(0%);"><span class="ppled2lx tkdu00h0 gfz4du6o r7fjleex lhggkp7q qq0sjtgm ln8gz9je"><div class="g6kkip0l p357zi0d f8m0rgwh ppled2lx tkdu00h0 gfz4du6o r7fjleex jv8uhy2r lhggkp7q qq0sjtgm ln8gz9je _3cjY2 copyable-area"><header class="nbczt5ty cm280p3y p357zi0d kk3akd72 f8m0rgwh kcgo1i74 ga8gq0dm iffbo4e8 emzwyjt3 dmous0d2 hpebpoc7"><div class="p357zi0d kk3akd72 gndfcl4n ln8gz9je rk2490ta m0jbzij3 thr4l2wc i5tg98hk f9ovudaz przvwfww gx1rr48f"><div class="kk3akd72 iqmas3e4"><div role="button" tabindex="0" aria-label="Back" class="kk3akd72 dmous0d2 fewfhwl7 ajgl1lbb ltyqj8pj"><span data-icon="back" class=""><svg viewBox="0 0 24 24" height="24" width="24" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" enable-background="new 0 0 24 24" xml:space="preserve"><path fill="currentColor" d="M12,4l1.4,1.4L7.8,11H20v2H7.8l5.6,5.6L12,20l-8-8L12,4z"></path></svg></span></div></div><div title="Profile" class="c32ccnay ggj6brxn empurrkj if44n927 gfz4du6o r7fjleex iqrewfee qmieapo1 fd365im1 fj2md7hy aoi073rw hnx8ox4h"><h1 class="mrcito7c r96muop5" aria-label="">Profile</h1></div></div></header><div class="g0rxnol2 thghmljt p357zi0d rjo8vgbg ggj6brxn f8m0rgwh gfz4du6o ag5g9lrv bs7a17vp ov67bkzj"><div class="p357zi0d tvf2evcx oq44ahr5 lb5m6g5c ac2vgrno ignnouf6 bibl1e27 rgztdhlt i9q6l8xd eb9g83lr kl1dhzdn"><div tabindex="-1" class="_3xH7K" aria-label="Photo" role="button"><div class="_2zgiY _2nK5T" title="Photo" dir="ltr" tabindex="0" role="button"><div class="_2-Mqo"><div class="_2pktu"><div style="position: absolute; width: 200px; height: 200px; top: 0px; left: 0px;"><img src="./wallpaper_files/312275078_536440688610343_7615745157778323589_n.jpg" alt="" class="_11JPr" tabindex="-1" style="height: 100%; width: 100%; visibility: visible;"></div></div></div><span></span></div><input type="file" accept="image/gif,image/jpeg,image/jpg,image/png" style="display: none;"></div></div><div class="gsqs0kct oauresqk efgp0a3n h3bz2vby g0rxnol2 tvf2evcx oq44ahr5 lb5m6g5c brac1wpa lkjmyc96 gaujl5hk bcymb0na aiput80m e8k79tju"><div class="i5tg98hk f9ovudaz przvwfww gx1rr48f k0lnf8n4"><div class="p357zi0d gndfcl4n"><div class="mx771qyo gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3"><span class="f8jlpxt4 tkq7s68q jq3rn4u7 e1gr2w1z" aria-label="">Your name</span></div></div></div><div tabindex="-1" class="_38pm5 _16fqT"><div class="_2Mre- _1tgCt" dir="auto"><div class="_1mDG-"><span dir="auto" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae i033jvx7 _11JPr selectable-text copyable-text"><span dir="ltr" class="f804f6gw ln8gz9je">Paramveer</span></span></div><span class="dveJL"></span><span class="_31Hpr"><button class="i5tg98hk f9ovudaz przvwfww gx1rr48f shdiholb phqmzxqs gtscxtjd ajgl1lbb thr4l2wc cc8mgx9x eta5aym1 d9802myq e4xiuwjv _3Ia3h" tabindex="0" title="Click to edit your name" type="button"><span data-icon="pencil" class="_2MviD"><svg viewBox="0 0 24 24" height="24" width="24" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" enable-background="new 0 0 24 24" xml:space="preserve"><path fill="currentColor" d="M3.95,16.7v3.4h3.4l9.8-9.9l-3.4-3.4L3.95,16.7z M19.75,7.6c0.4-0.4,0.4-0.9,0-1.3 l-2.1-2.1c-0.4-0.4-0.9-0.4-1.3,0l-1.6,1.6l3.4,3.4L19.75,7.6z"></path></svg></span></button></span></div></div></div><div class="qt60bha0 rvlagp7p bibl1e27 r6x3u63k gsqs0kct oauresqk kl1dhzdn"><span class="f8jlpxt4 e4qy2s3t pm5hny62 e1gr2w1z" aria-label="">This is not your username or pin. This name will be visible to your WhatsApp contacts.</span></div><div class="gsqs0kct oauresqk efgp0a3n h3bz2vby g0rxnol2 tvf2evcx oq44ahr5 lb5m6g5c brac1wpa lkjmyc96 gaujl5hk bcymb0na aiput80m e8k79tju"><div class="i5tg98hk f9ovudaz przvwfww gx1rr48f k0lnf8n4"><div class="p357zi0d gndfcl4n"><div class="mx771qyo gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3"><span class="f8jlpxt4 tkq7s68q jq3rn4u7 e1gr2w1z" aria-label="">About</span></div></div></div><div tabindex="-1" class="_38pm5 _16fqT"><div class="_2Mre- _1tgCt" dir="auto"><span class="dveJL"></span><span class="_31Hpr"><button class="i5tg98hk f9ovudaz przvwfww gx1rr48f shdiholb phqmzxqs gtscxtjd ajgl1lbb thr4l2wc cc8mgx9x eta5aym1 d9802myq e4xiuwjv _3Ia3h" tabindex="0" title="Click to edit About" type="button"><span data-icon="pencil" class="_2MviD"><svg viewBox="0 0 24 24" height="24" width="24" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" enable-background="new 0 0 24 24" xml:space="preserve"><path fill="currentColor" d="M3.95,16.7v3.4h3.4l9.8-9.9l-3.4-3.4L3.95,16.7z M19.75,7.6c0.4-0.4,0.4-0.9,0-1.3 l-2.1-2.1c-0.4-0.4-0.9-0.4-1.3,0l-1.6,1.6l3.4,3.4L19.75,7.6z"></path></svg></span></button></span></div></div></div></div></div></span></div></span></div><div class="_2Ts6i _2xAQV"><span class="lhggkp7q qq0sjtgm ebjesfe0 jxacihee tkdu00h0"></span></div></div><div class="_2Ts6i _3RGKj"><header class="g0rxnol2 ercejckq cm280p3y p357zi0d gndfcl4n kcgo1i74 ln8gz9je e8h85j61 emrlamx0 aiput80m lyvj5e2u l9g3jx6n f6ipylw5"><div class="_3WByx"><div data-tab="2" tabindex="-1" role="button" aria-label="profile photo" class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 40px; width: 40px; cursor: pointer;"><img src="./wallpaper_files/312275078_536440688610343_7615745157778323589_n(1).jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div><div class="_604FD"><div class="_1sPvB _2XdMx"><span class=""><div class="_3OtEr rOo0o"><div aria-disabled="false" role="button" tabindex="0" class="_3ndVb fbgy3m38 ft2m32mm oq31bsqd nu34rnf1" data-tab="2" title="Communities" aria-label="Communities"><span data-icon="community-tab" class=""><svg viewBox="0 0 24 24" height="24" width="24" preserveAspectRatio="xMidYMid meet" class="" fill="none"><g clip-path="url(#clip0_20095_12594)"><path d="M4.7595 14.0357C4.65644 14.0313 4.55139 14.029 4.44446 14.029C3.65152 14.029 2.96238 14.1558 2.41872 14.3088C1.95159 14.4403 1.42115 14.656 0.975466 14.9996C0.521192 15.3498 0.107939 15.8739 0.0263682 16.5959C-0.0117388 16.9332 2.95136e-05 17.6554 0.00922726 18.0644C0.0256195 18.7935 0.623061 19.3623 1.33916 19.3623H4.31303C4.13562 18.9875 4.03074 18.5698 4.01771 18.1256C4.00494 17.6905 3.97075 16.5163 4.05525 15.893C4.09928 15.5682 4.17628 15.2639 4.27738 14.982C4.40496 14.6263 4.57082 14.3123 4.7595 14.0357Z" fill="currentColor"></path><path d="M19.6869 19.3623H22.6608C23.3769 19.3623 23.9744 18.7935 23.9908 18.0644C24 17.6554 24.0117 16.9332 23.9736 16.5959C23.8921 15.8739 23.4788 15.3498 23.0245 14.9996C22.5788 14.656 22.0484 14.4403 21.5813 14.3088C21.0376 14.1558 20.3485 14.029 19.5555 14.029C19.4486 14.029 19.3435 14.0313 19.2405 14.0357C19.4291 14.3123 19.595 14.6263 19.7226 14.982C19.8237 15.2639 19.9007 15.5682 19.9447 15.893C20.0292 16.5163 19.995 17.6905 19.9822 18.1256C19.9692 18.5698 19.8643 18.9875 19.6869 19.3623Z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.52831 13.6265C9.36687 13.3837 10.5649 13.1401 12 13.1401C13.4351 13.1401 14.6331 13.3837 15.4716 13.6265C15.9039 13.7517 16.4206 13.9288 16.8826 14.2131C17.352 14.5019 17.8167 14.934 18.0492 15.5821C18.1097 15.751 18.1563 15.9344 18.183 16.1318C18.243 16.5742 18.22 17.5691 18.2052 18.0735C18.184 18.7987 17.5884 19.3623 16.8756 19.3623H7.12434C6.41155 19.3623 5.81599 18.7987 5.79472 18.0735C5.77992 17.5691 5.75694 16.5742 5.81691 16.1318C5.84367 15.9344 5.89021 15.751 5.95079 15.5821C6.18324 14.934 6.64793 14.5019 7.11736 14.2131C7.57933 13.9288 8.09602 13.7517 8.52831 13.6265Z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.8889 9.97001C16.8889 8.49726 18.0828 7.31001 19.5555 7.31001C21.0283 7.31001 22.2222 8.49726 22.2222 9.97001C22.2222 11.4428 21.0283 12.64 19.5555 12.64C18.0828 12.64 16.8889 11.4428 16.8889 9.97001Z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.44443 8.20001C8.44443 6.23634 10.0363 4.64001 12 4.64001C13.9636 4.64001 15.5555 6.23634 15.5555 8.20001C15.5555 10.1637 13.9636 11.75 12 11.75C10.0363 11.75 8.44443 10.1637 8.44443 8.20001Z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M1.77777 9.97001C1.77777 8.49726 2.97168 7.31001 4.44444 7.31001C5.91719 7.31001 7.1111 8.49726 7.1111 9.97001C7.1111 11.4428 5.91719 12.64 4.44444 12.64C2.97168 12.64 1.77777 11.4428 1.77777 9.97001Z" fill="currentColor"></path></g><defs><clippath id="clip0_20095_12594"><rect width="24" height="24" fill="10101"></rect></clippath></defs></svg></span></div><span></span></div><div class="_3OtEr"><div aria-disabled="false" role="button" tabindex="0" class="_3ndVb fbgy3m38 ft2m32mm oq31bsqd nu34rnf1" data-tab="2" title="Status" aria-label="Status"><span data-icon="status-v3-unread" class=""><svg viewBox="0 0 24 24" height="24" width="24" preserveAspectRatio="xMidYMid meet" class="" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.71672 8.34119C3.23926 8.06362 3.07722 7.45154 3.35479 6.97407C4.33646 5.28548 5.79114 3.92134 7.53925 3.05006C9.28736 2.17878 11.2524 1.83851 13.1916 2.07126C13.74 2.13707 14.1312 2.63494 14.0654 3.18329C13.9995 3.73164 13.5017 4.12282 12.9533 4.05701C11.4019 3.87081 9.82989 4.14303 8.43141 4.84005C7.03292 5.53708 5.86917 6.62839 5.08384 7.97926C4.80626 8.45672 4.19419 8.61876 3.71672 8.34119Z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68628 15.3137 5.99999 12 5.99999C8.68629 5.99999 6 8.68628 6 12C6 15.3137 8.68629 18 12 18Z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M20.8569 10.115C21.4065 10.0604 21.8963 10.4616 21.9509 11.0112C22.144 12.9548 21.7638 14.9125 20.857 16.6424C19.9503 18.3724 18.5567 19.799 16.8485 20.746C16.3655 21.0138 15.7568 20.8393 15.489 20.3563C15.2213 19.8732 15.3957 19.2646 15.8788 18.9968C17.2454 18.2392 18.3602 17.0979 19.0856 15.714C19.811 14.33 20.1152 12.7639 19.9607 11.209C19.9061 10.6594 20.3073 10.1696 20.8569 10.115Z" fill="currentColor"></path><path d="M6.34315 17.6568C7.89977 19.2135 9.93829 19.9945 11.9785 20C12.4928 20.0013 12.9654 20.3306 13.0791 20.8322C13.2105 21.4123 12.8147 21.9846 12.22 21.9976C9.58797 22.0552 6.93751 21.0796 4.92893 19.0711C2.90126 17.0434 1.92639 14.3616 2.00433 11.7049C2.02177 11.1104 2.59704 10.7188 3.17612 10.8546C3.67682 10.9721 4.00256 11.4471 4.00009 11.9614C3.99021 14.0216 4.77123 16.0849 6.34315 17.6568Z" fill="currentColor"></path><circle cx="19.95" cy="4.05005" r="3" fill="#009588"></circle></svg></span></div><span></span></div><div class="_3OtEr"><div aria-disabled="false" role="button" tabindex="0" class="_3ndVb fbgy3m38 ft2m32mm oq31bsqd nu34rnf1" data-tab="2" title="New chat" aria-label="New chat"><span data-icon="new-chat" class=""><svg viewBox="0 0 24 24" height="24" width="24" preserveAspectRatio="xMidYMid meet" class="" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.16667 3.75C3.69391 3.75 2.5 4.94391 2.5 6.41667V17.5833C2.5 19.0561 3.69391 20.25 5.16667 20.25H18.8333C20.3061 20.25 21.5 19.0561 21.5 17.5833V8.75L23.7458 5.29499C24.1782 4.62974 23.7008 3.75 22.9073 3.75H5.16667ZM14.9672 12.9911H12.9914V14.9671C12.9914 15.3999 12.7366 15.8175 12.3238 15.9488C11.6391 16.1661 11.009 15.6613 11.009 15.009V12.9911H9.03279C8.59949 12.9911 8.1819 12.7358 8.05099 12.3226C7.83412 11.6381 8.33942 11.0089 8.99134 11.0089H11.009V9.03332C11.009 8.60007 11.2639 8.18252 11.6767 8.05119C12.3609 7.83391 12.9914 8.33872 12.9914 8.991V11.0089H15.0091C15.6606 11.0089 16.1659 11.6381 15.949 12.3226C15.8185 12.7358 15.4005 12.9911 14.9672 12.9911Z" fill="currentColor"></path></svg></span></div><span></span></div><span></span><div class="_3OtEr"><div aria-disabled="false" role="button" tabindex="0" class="_3ndVb fbgy3m38 ft2m32mm oq31bsqd nu34rnf1" data-tab="2" title="Menu" aria-label="Menu"><span data-icon="menu" class=""><svg viewBox="0 0 24 24" height="24" width="24" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" enable-background="new 0 0 24 24" xml:space="preserve"><path fill="currentColor" d="M12,7c1.104,0,2-0.896,2-2c0-1.105-0.895-2-2-2c-1.104,0-2,0.894-2,2 C10,6.105,10.895,7,12,7z M12,9c-1.104,0-2,0.894-2,2c0,1.104,0.895,2,2,2c1.104,0,2-0.896,2-2C13.999,9.895,13.104,9,12,9z M12,15 c-1.104,0-2,0.894-2,2c0,1.104,0.895,2,2,2c1.104,0,2-0.896,2-2C13.999,15.894,13.104,15,12,15z"></path></svg></span></div><span></span></div></span></div></div></header><div id="side" class="k8VZe"><div tabindex="-1" class="_3gYev"><div class="_1s7Pa _3wQ5i o7fBL"><div class="_1EUay"><button class="opCKJ _28iyj" aria-label="Search or start new chat" tabindex="-1"><div class="_3xdht _2hW8J"><span data-icon="back" class=""><svg viewBox="0 0 24 24" height="24" width="24" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" enable-background="new 0 0 24 24" xml:space="preserve"><path fill="currentColor" d="M12,4l1.4,1.4L7.8,11H20v2H7.8l5.6,5.6L12,20l-8-8L12,4z"></path></svg></span></div><div class="_3xdht _1ZD3q"><span data-icon="search" class=""><svg viewBox="0 0 24 24" height="24" width="24" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" enable-background="new 0 0 24 24" xml:space="preserve"><path fill="currentColor" d="M15.009,13.805h-0.636l-0.22-0.219c0.781-0.911,1.256-2.092,1.256-3.386 c0-2.876-2.332-5.207-5.207-5.207c-2.876,0-5.208,2.331-5.208,5.207s2.331,5.208,5.208,5.208c1.293,0,2.474-0.474,3.385-1.255 l0.221,0.22v0.635l4.004,3.999l1.194-1.195L15.009,13.805z M10.201,13.805c-1.991,0-3.605-1.614-3.605-3.605 s1.614-3.605,3.605-3.605s3.605,1.614,3.605,3.605S12.192,13.805,10.201,13.805z"></path></svg></span></div></button><span></span><div class="_3sHED">Search or start new chat</div><div class="_2vDPL"><div class="g0rxnol2 ln8gz9je lexical-rich-text-input"><div class="to2l77zo gfz4du6o ag5g9lrv bze30y65 kao4egtt qh0vvdkp" contenteditable="true" role="textbox" title="Search input textbox" tabindex="3" data-tab="3" data-lexical-editor="true" style="min-height: 1.47em; user-select: text; white-space: pre-wrap; word-break: break-word;"><p class="selectable-text copyable-text iq0m558w g0rxnol2"><br></p></div><div class="lhggkp7q qq0sjtgm jxacihee c3x5l3r8 b9fczbqn t35qvd06 m62443ks rkxvyd19 c5h0bzs2 bze30y65 kao4egtt"></div></div></div></div><button data-tab="4" aria-label="Unread chats filter" aria-pressed="false" title="Unread chats filter" class="tt8xd2xn bugiwsl0 mpdn4nr2 fooq7fky"><div class="tvf2evcx m0h2a7mj lb5m6g5c j7l1k36l ktfrpxia nu7pwgvd p357zi0d dnb887gk gjuq5ydh i2cterl7 ac2vgrno sap93d0t gndfcl4n ekdr8vow dhq51u3o s4k44ver g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb"><span data-icon="filter" class=""><svg viewBox="0 0 24 24" height="20" width="20" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" enable-background="new 0 0 24 24" xml:space="preserve"><path fill="currentColor" d="M10,18.1h4v-2h-4V18.1z M3,6.1v2h18v-2H3z M6,13.1h12v-2H6V13.1z"></path></svg></span></div></button></div></div><span class="_3P5VY"><div class="_29b-Q"><div class="QHzX9 _1G0tJ"><div class="_1JKq0 _2VXQj"><span data-icon="alert-update" class=""><svg viewBox="0 0 48 48" height="48" width="48" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" enable-background="new 0 0 48 48" xml:space="preserve"><path fill="currentColor" d="M24.154,2C11.919,2,2,11.924,2,24.165S11.919,46.33,24.154,46.33 s22.154-9.924,22.154-22.165S36.389,2,24.154,2z M31.701,23.037h-6.738l3.08-3.08c-1.059-1.059-2.406-1.733-4.043-1.733 c-3.176,0-5.775,2.599-5.775,5.775c0,3.177,2.599,5.776,5.775,5.776c2.503,0,4.62-1.637,5.391-3.85h2.021 c-0.866,3.273-3.85,5.776-7.412,5.776c-4.235,0-7.701-3.465-7.701-7.701c0-4.235,3.465-7.701,7.701-7.701 c2.118,0,4.043,0.866,5.391,2.31l2.31-2.31C31.701,16.299,31.701,23.037,31.701,23.037z"></path></svg></span></div><div class="_24ZNO _2VXQj"><div class="_2N9vK">Update available</div><div class="_2U-4i"><span class="f804f6gw"><button class="i5tg98hk f9ovudaz przvwfww gx1rr48f shdiholb phqmzxqs gtscxtjd ajgl1lbb thr4l2wc cc8mgx9x eta5aym1 d9802myq e4xiuwjv" tabindex="0" type="button"><span class="edeob0r2 t94efhq2">Click to update WhatsApp</span></button><span data-icon="chevron-right-text" class="l7jjieqr hymafltn k6y3xtnu fewfhwl7"><svg viewBox="0 0 8 12" height="12" width="8" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" enable-background="new 0 0 8 12" xml:space="preserve"><path fill="currentColor" d="M2.173,1l4.584,4.725L2.142,10.34L1.039,9.237l3.512-3.512L1,2.173L2.173,1z"></path></svg></span></span></div></div></div></div></span><div class="g0rxnol2 _3fGK2" id="pane-side"><div tabindex="-1" class="" data-tab="4"><div tabindex="-1"><div aria-label="Chat list" class="_3YS_f _2A1R8" role="grid" aria-rowcount="165" style="height: 11880px;"><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 164; transition: none 0s ease 0s; height: 72px; transform: translateY(288px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691"><div class="_1AHcd"><div class="_13jwn"><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><div class="lhggkp7q qq0sjtgm tkdu00h0 p357zi0d gndfcl4n ac2vgrno ln8gz9je ppled2lx bmttxqfw ban5wmpu"><span data-icon="default-group" class=""><svg viewBox="0 0 212 212" height="212" width="212" preserveAspectRatio="xMidYMid meet" class="ln8gz9je ppled2lx" fill="none"><path class="background" d="M105.946 0.25C164.318 0.25 211.64 47.596 211.64 106C211.64 164.404 164.318 211.75 105.945 211.75C47.571 211.75 0.25 164.404 0.25 106C0.25 47.596 47.571 0.25 105.946 0.25Z" fill="#DFE5E7"></path><path class="primary" fill-rule="evenodd" clip-rule="evenodd" d="M102.282 77.2856C102.282 87.957 93.8569 96.5713 83.3419 96.5713C72.827 96.5713 64.339 87.957 64.339 77.2856C64.339 66.6143 72.827 58 83.3419 58C93.8569 58 102.282 66.6143 102.282 77.2856ZM150.35 80.1427C150.35 89.9446 142.612 97.857 132.954 97.857C123.296 97.857 115.5 89.9446 115.5 80.1427C115.5 70.3409 123.296 62.4285 132.954 62.4285C142.612 62.4285 150.35 70.3409 150.35 80.1427ZM83.3402 109.428C68.5812 109.428 39 116.95 39 131.928V143.714C39 147.25 41.8504 148 45.3343 148H121.346C124.83 148 127.68 147.25 127.68 143.714V131.928C127.68 116.95 98.0991 109.428 83.3402 109.428ZM126.804 110.853C127.707 110.871 128.485 110.886 129 110.886C143.759 110.886 174 116.95 174 131.929V141.571C174 145.107 171.15 148 167.666 148H134.854C135.551 146.007 135.995 143.821 135.995 141.571L135.75 131.071C135.75 121.51 130.136 117.858 124.162 113.971C122.772 113.067 121.363 112.15 120 111.143C119.981 111.123 119.962 111.098 119.941 111.07C119.893 111.007 119.835 110.931 119.747 110.886C121.343 110.747 124.485 110.808 126.804 110.853Z"></path></svg></span></div></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="Turf" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Turf</span></div><div class="Dvjym"><span class="aprpv14t">2:51 pm</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪Turf time‬"><span>You voted in: </span><span>&nbsp;</span>"<div class="l7jjieqr tvf2evcx oq44ahr5 lb5m6g5c g97rt3p3 fewfhwl7 jdwybkuq kjemk6od"><span data-icon="status-poll" class=""><svg viewBox="0 0 16 20" height="20" width="16" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" xml:space="preserve"><path fill="currentColor" d="m2,5.5c0-.83.67-1.5,1.5-1.5h5c.83,0,1.5.67,1.5,1.5s-.67,1.5-1.5,1.5H3.5c-.83,0-1.5-.67-1.5-1.5Z"></path><path fill="currentColor" d="m2,9.5c0-.83.67-1.5,1.5-1.5h9c.83,0,1.5.67,1.5,1.5s-.67,1.5-1.5,1.5H3.5c-.83,0-1.5-.67-1.5-1.5Z"></path><path fill="currentColor" d="m3.5,12c-.83,0-1.5.67-1.5,1.5s.67,1.5,1.5,1.5h3c.83,0,1.5-.67,1.5-1.5s-.67-1.5-1.5-1.5h-3Z"></path></svg></span></div><span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Turf time"</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 163; transition: none 0s ease 0s; height: 72px; transform: translateY(936px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691"><div class="_1AHcd"><div class="_13jwn"><div><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><img src="./wallpaper_files/337867905_942158586806025_8162755702588471399_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="prem prajapat" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">prem prajapat</span></div><div class="Dvjym"><span class="aprpv14t">yesterday</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪apply kar dena‬"><span>You reacted <img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="👍" draggable="false" class="bd96tnyg b38 emoji wa _11JPr" tabindex="-1" style="background-position: 0px -40px;"> to:</span><span>&nbsp;</span>"<span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">apply kar dena"</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 162; transition: none 0s ease 0s; height: 72px; transform: translateY(360px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><img src="./wallpaper_files/344740859_119527994465277_2791364896939019896_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="TECHNO INDIA NJR DIGITAL BULLETIN" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">TECHNO INDIA NJR DIGITAL BULLETIN</span></div><div class="Dvjym"><span class="aprpv14t">12:44 pm</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪This message was deleted‬"><span dir="auto" aria-label="Maybe Lavisha Jain✨" class="l7jjieqr _11JPr">~ Lavisha Jain<img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="✨" draggable="false" class="b7 emoji wa _11JPr" tabindex="-1" style="background-position: -40px -40px;"></span><span>:&nbsp;</span><div class="l7jjieqr tvf2evcx oq44ahr5 lb5m6g5c g97rt3p3 fewfhwl7 jdwybkuq kjemk6od"><span data-icon="recalled" class="l7jjieqr ryaohf54"><svg viewBox="0 0 24 24" height="20" width="20" preserveAspectRatio="xMidYMid meet" class="" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.75897 6.43054C8.93584 5.533 10.4057 5 12 5C15.866 5 19 8.13401 19 12C19 13.5943 18.467 15.0642 17.5695 16.241L7.75897 6.43054ZM6.35707 7.85707C5.50399 9.01706 5 10.4497 5 12C5 15.866 8.13401 19 12 19C13.5503 19 14.9829 18.496 16.1429 17.6429L6.35707 7.85707ZM12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3Z" fill="currentColor"></path></svg></span></div><span dir="auto" aria-label="" class="_2WT20 ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">This message was deleted</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">4</span></div></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 161; transition: none 0s ease 0s; height: 72px; transform: translateY(432px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><img src="./wallpaper_files/258572206_299953148798003_7587068810192023290_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="TECHNO INDIA NJR 2019-26" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">TECHNO INDIA NJR 2019-26</span></div><div class="Dvjym"><span class="aprpv14t">12:44 pm</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪This message was deleted‬"><span dir="auto" aria-label="Maybe Lavisha Jain✨" class="l7jjieqr _11JPr">~ Lavisha Jain<img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="✨" draggable="false" class="b7 emoji wa _11JPr" tabindex="-1" style="background-position: -40px -40px;"></span><span>:&nbsp;</span><div class="l7jjieqr tvf2evcx oq44ahr5 lb5m6g5c g97rt3p3 fewfhwl7 jdwybkuq kjemk6od"><span data-icon="recalled" class="l7jjieqr ryaohf54"><svg viewBox="0 0 24 24" height="20" width="20" preserveAspectRatio="xMidYMid meet" class="" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.75897 6.43054C8.93584 5.533 10.4057 5 12 5C15.866 5 19 8.13401 19 12C19 13.5943 18.467 15.0642 17.5695 16.241L7.75897 6.43054ZM6.35707 7.85707C5.50399 9.01706 5 10.4497 5 12C5 15.866 8.13401 19 12 19C13.5503 19 14.9829 18.496 16.1429 17.6429L6.35707 7.85707ZM12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3Z" fill="currentColor"></path></svg></span></div><span dir="auto" aria-label="" class="_2WT20 ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">This message was deleted</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH" style="transform: scaleX(1) scaleY(1); opacity: 1;"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">1</span></div></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 160; transition: none 0s ease 0s; height: 72px; transform: translateY(864px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691"><div class="_1AHcd"><div class="_13jwn"><div><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><img src="./wallpaper_files/363523630_1111752639793013_3278018977177732247_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="dikshant_dak" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">dikshant_dak</span></div><div class="Dvjym"><span class="aprpv14t">yesterday</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;link href=&quot;main.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css&quot;&gt;
+    &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot; /&gt;
+    &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; /&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&amp;display=swap&quot;
+        rel=&quot;stylesheet&quot; /&gt;
+    &lt;title&gt;Ecommerce&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav
+        class=&quot;justify-between pr-5 bg-gradient-to-r from-[#434343] to-[#1f1b1b] w-full h-[7vh] flex items-center md:justify-evenly shadow-lg relative z-10&quot;&gt;
+        &lt;div class=&quot;px-2 &quot;&gt;
+            &lt;h2 class=&quot;text-white text-sm md:text-xl uppercase md:cursor-pointer font-bold&quot;&gt;Brandtastic&lt;/h2&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;flex justify-between items-center &quot;&gt;
+            &lt;div class=&quot;menu-icon md:hidden&quot;&gt;
+                &lt;div class=&quot;bar w-6 h-1 bg-white mb-1&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;bar w-6 h-1 bg-white mb-1&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;bar w-6 h-1 bg-white&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;close-icon cursor-pointer hidden text-white&quot;&gt;
+                &lt;i class=&quot;fa-solid fa-xmark&quot; style=&quot;color: #fff;&quot;&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;ul class=&quot;hidden md:flex justify-center items-center text-white text-sm md:text-base md:uppercase&quot;&gt;
+                &lt;li class=&quot;px-1 md:px-2 md:cursor-pointer hover:opacity-80 &quot;&gt;Home&lt;/li&gt;
+                &lt;li class=&quot;px-1 md:px-2 md:cursor-pointer hover:opacity-80 &quot;&gt;Categories&lt;/li&gt;
+                &lt;li class=&quot;px-1 hidden md:px-2 md:block md:cursor-pointer hover:opacity-80 &quot;&gt;About&lt;/li&gt;
+                &lt;li class=&quot;px-1 hidden md:px-2 md:block md:cursor-pointer hover:opacity-80 &quot;&gt;Contact Us&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+
+        &lt;ul class=&quot;mobile-menu w-full text-center text-xl pt-20  hidden md:hidden &quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;text-white leading-10&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;text-white leading-10&quot;&gt;Categories&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;text-white leading-10&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;text-white leading-10&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+            &lt;!-- &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;hover:text-gray-300&quot;&gt;&lt;/a&gt;&lt;/li&gt; --&gt;
+        &lt;/ul&gt;
+
+        &lt;div class=&quot;mx-3 hidden md:block&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-magnifying-glass md:fa-lg px-1 md:px-3  md:cursor-pointer&quot; style=&quot;color: #fff;&quot;&gt;&lt;/i&gt;
+            &lt;i class=&quot;fa-solid fa-heart md:fa-lg px-1 md:px-3 md:cursor-pointer hidden md:block&quot;
+                style=&quot;color: #fff;&quot;&gt;&lt;/i&gt;
+            &lt;i class=&quot;fa-sharp fa-solid fa-bag-shopping md:fa-lg px-1 md:px-3 md:cursor-pointer hidden md:block&quot;
+                style=&quot;color: #fff;&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;hidden md:block mr-2&quot;&gt;
+            &lt;img src=&quot;./images/dbs2.jpg &quot; alt=&quot;Profile Image&quot; class=&quot;rounded-full w-6 h-6 md:w-10 md:h-8&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+
+    &lt;div
+        class=&quot;w-full bg-gradient-to-r from-[#434343] to-[#1f1b1b] no-underline pt-10 flex items-center justify-center &quot;&gt;
+        &lt;input name=&quot;search&quot; id=&quot;search&quot; type=&quot;search&quot; placeholder=&quot;Search&quot;
+            class=&quot;w-[180px] h-[50px] outline-none bg-white px-15 text-sm rounded-tl-3xl rounded-bl-3xl text-[gray] border border-solid border-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 pl-2 md:w-[500px] md:h-[60px] md:text-lg md-px-30 md:rounded-tl-3xl md:rounded-bl-3xl md:pl-6 md:mt-20&quot; /&gt;
+
+        &lt;button id=&quot;btn-search&quot;
+            class=&quot;w-[100px] h-[50px] bg-gradient-to-r from-[#434343] to-[#1f1b1b] text-white outline-none rounded-tr-3xl rounded-br-3xl text-sm md:w-[150px] md:h-[60px] md:text-base hover:opacity-80 md:rounded-tr-3xl md:rounded-br-3xl md:mt-20&quot;
+            onclick=&quot;searchedProducts()&quot;&gt;Search&lt;/button&gt;
+
+    &lt;/div&gt;
+
+
+    &lt;div id=&quot;results&quot;
+        class=&quot;text-white  flex flex-col items-center justify-center bg-gradient-to-r from-[#434343] to-[#1f1b1b]  p-4&quot;&gt;
+        &lt;!-- &lt;div class=&quot;w-20 bg-white&quot;&gt;&lt;/div&gt; --&gt;
+    &lt;/div&gt;
+
+    &lt;div id=&quot;container&quot;&gt;
+
+        &lt;header
+            class=&quot;w-full h-[40vh] bg-gradient-to-r from-[#434343] to-[#1f1b1b] flex md:h-[100vh] md:items-center md:justify-evenly md:pb-[400px]&quot;&gt;
+
+            &lt;div class=&quot;flex flex-col justify-center text-white ml-10 pt-[-80px] &quot;&gt;
+                &lt;h1 class=&quot;mx-5 text-left text-sm md:text-5xl font-bold&quot;&gt;TDCC&lt;/h1&gt;
+                &lt;p class=&quot;mx-5 text-sm md:text-2xl md:mt-4&quot;&gt;Empowering Your Digital Lifestyle ! and Growing Everyday&lt;/p&gt;
+
+                &lt;div class=&quot;flex items-center mt-5&quot;&gt;
+                    &lt;button
+                        class=&quot;bg-gradient-to-r from-[#434343] to-[#1f1b1b] rounded-[20px] text-xs w-[100px] h-[35px] ml-3 md:w-[150px] md:h-[45px] md:text-base hover:opacity-70&quot;&gt;&lt;a
+                            href=&quot;./login.html&quot;&gt;Get Started!&lt;/a&gt;&lt;/button&gt;
+                    &lt;button
+                        class=&quot;text-xs bg-white rounded-[20px] w-[100px] h-[35px] ml-2 text-black md:w-[150px] md:h-[45px] md:text-base hover:opacity-70&quot;&gt;Shop
+                        Now
+                        &lt;i class=&quot;fa-sharp fa-solid fa-bag-shopping &quot; style=&quot;color: #000;&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;mt-5&quot;&gt;
+
+                &lt;img src=&quot;./images/banner2.png&quot; class=&quot;w-[300px] h-[250px] md:w-[800px] md:h-[550px]&quot;
+                    alt=&quot;Banner Image&quot; /&gt;
+            &lt;/div&gt;
+
+            &lt;!-- &lt;div class=&quot;bg-gray-200 w-full h-screen flex items-center justify-center&quot;&gt;
+            &lt;div class=&quot;max-w-3xl w-full overflow-hidden relative&quot;&gt;
+                &lt;div id=&quot;carousel&quot; class=&quot;carousel&quot;&gt;
+                    &lt;div class=&quot;carousel-inner&quot;&gt;
+                        &lt;div class=&quot;carousel-item&quot;&gt;
+                            &lt;img src=&quot;./images/slider-1.jpg&quot; alt=&quot;Image 1&quot;&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;carousel-item&quot;&gt;
+                            &lt;img src=&quot;./images/slider2.jpg&quot; alt=&quot;Image 2&quot;&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;carousel-item&quot;&gt;
+                            &lt;img src=&quot;./images/slider-3.jpg&quot; alt=&quot;Image 3&quot;&gt;
+                        &lt;/div&gt;
+                        
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;button id=&quot;prevButton&quot; class=&quot;absolute left-0 top-1/2 transform -translate-y-1/2 p-2 bg-gray-800 text-white rounded-full shadow-lg z-10&quot;&gt;Prev&lt;/button&gt;
+                &lt;button id=&quot;nextButton&quot; class=&quot;absolute right-0 top-1/2 transform -translate-y-1/2 p-2 bg-gray-800 text-white rounded-full shadow-lg z-10&quot;&gt;Next&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt; --&gt;
+
+        &lt;/header&gt;
+
+        &lt;div class=&quot;flex flex-col items-center justify-center p-5 md:flex-row &quot;&gt;
+            &lt;img src=&quot;./images/cat-1.jpg&quot;
+                class=&quot;w-[260px] h-[150px] my-5 md:mx-5 md:cursor-pointer hover:opacity-80 transform hover:scale-110 transition-transform duration-300 ease-in-out md:duration-500 md:ease-in-out&quot;
+                alt=&quot;&quot; /&gt;
+            &lt;img src=&quot;./images/cat-2.jpg&quot;
+                class=&quot;w-[260px] h-[150px] my-5 md:mx-5 md:cursor-pointer hover:opacity-80 transform hover:scale-110 transition-transform duration-300 ease-in-out md:duration-500 md:ease-in-out&quot;
+                alt=&quot;&quot; /&gt;
+            &lt;img src=&quot;./images/cat-3.jpg&quot;
+                class=&quot;w-[260px] h-[150px] my-5 md:mx-5 md:cursor-pointer hover:opacity-80 transform hover:scale-110 transition-transform duration-300 ease-in-out md:duration-500 md:ease-in-out&quot;
+                alt=&quot;&quot; /&gt;
+            &lt;img src=&quot;./images/cat-4.jpg&quot;
+                class=&quot;w-[260px] h-[150px] my-5 md:mx-5 md:cursor-pointer hover:opacity-80 transform hover:scale-110 transition-transform duration-300 ease-in-out md:duration-500 md:ease-in-out&quot;
+                alt=&quot;&quot; /&gt;
+        &lt;/div&gt;
+
+        &lt;!-- POPULAR PRODUCTS SECTION --&gt;
+        &lt;div id=&quot;dynamicProducts&quot; class=&quot;mt-5 w-full h-full&quot;&gt;
+            &lt;h2 class=&quot;font-bold ml-8 md:ml-56 text-xl&quot;&gt;POPULAR PRODUCTS&lt;/h2&gt;
+            &lt;div class=&quot;border-b-4 border-gray-500 w-20 ml-8 md:ml-56&quot;&gt;&lt;/div&gt;
+
+            &lt;div id=&quot;dynamic-Product&quot;
+                class=&quot;flex flex-col items-center justify-center mt-5 md:flex-row flex-wrap md:w-[80vw] md:mx-48 mb-10&quot;&gt;
+                &lt;!-- &lt;div
+                class=&quot;bg-gray-300 w-[250px] h-[350px] rounded-lg border border-gray-600 md:cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out md:duration-500 md:ease-in-out mt-10 md:ml-5 md:w-[300px] md:h-[420px] md:pr-2 md:mx-5&quot;&gt;
+                &lt;img src=&quot;./images/headphone-prod-1.webp&quot; class=&quot;w-[220px] h-[130px] mt-3 md:w-[280px] md:h-[240px]&quot;
+                    alt=&quot;Product Image&quot; /&gt;
+                &lt;h2 class=&quot;ml-3 mt-2 font-bold&quot;&gt;boAt Rockerz 450 DC edition&lt;/h2&gt;
+                &lt;p class=&quot;text-sm font-semibold ml-3 mt-2&quot;&gt; Over Ear Bluetooth Headphones with Upto 15 Hours Playback, Adaptive Headband, 40mm Dynamic Driver, 300 mah Battery...&lt;/p&gt;
+                &lt;h2 class=&quot;font-bold ml-3 mt-2&quot;&gt;₹1999&lt;/h2&gt;
+            &lt;/div&gt;
+            &lt;div
+            class=&quot;bg-gray-300 w-[250px] h-[350px] rounded-lg border border-gray-600 md:cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out md:duration-500 md:ease-in-out mt-10 md:ml-5 md:w-[300px] md:h-[420px] md:pr-2 md:mx-5&quot;&gt;
+                &lt;img src=&quot;./images/headphone-prod-1.webp&quot; class=&quot;w-[220px] h-[130px] mt-3 md:w-[280px] md:h-[240px]&quot;
+                    alt=&quot;Product Image&quot; /&gt;
+                &lt;h2 class=&quot;ml-3 mt-2 font-bold&quot;&gt;boAt Rockerz 450 DC edition&lt;/h2&gt;
+                &lt;p class=&quot;text-sm font-semibold ml-3 mt-2&quot;&gt; Over Ear Bluetooth Headphones with Upto 15 Hours Playback, Adaptive Headband, 40mm Dynamic Driver, 300 mah Battery...&lt;/p&gt;
+                &lt;h2 class=&quot;font-bold ml-3 mt-2&quot;&gt;₹1999&lt;/h2&gt;
+            &lt;/div&gt;
+            &lt;div
+                class=&quot;bg-gray-300 w-[250px] h-[350px] rounded-lg border border-gray-600 md:cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out md:duration-500 md:ease-in-out mt-10 md:ml-5 md:w-[300px] md:h-[420px] md:pr-2 md:mx-5&quot;&gt;
+                &lt;img src=&quot;./images/headphone-prod-1.webp&quot; class=&quot;w-[220px] h-[130px] mt-3 md:w-[280px] md:h-[240px]&quot;
+                    alt=&quot;Product Image&quot; /&gt;
+                &lt;h2 class=&quot;ml-3 mt-2 font-bold&quot;&gt;boAt Rockerz 450 DC edition&lt;/h2&gt;
+                &lt;p class=&quot;text-sm font-semibold ml-3 mt-2&quot;&gt; Over Ear Bluetooth Headphones with Upto 15 Hours Playback, Adaptive Headband, 40mm Dynamic Driver, 300 mah Battery...&lt;/p&gt;
+                &lt;h2 class=&quot;font-bold ml-3 mt-2&quot;&gt;₹1999&lt;/h2&gt;
+            &lt;/div&gt;
+            &lt;div
+                class=&quot;bg-gray-300 w-[250px] h-[350px] rounded-lg border border-gray-600 md:cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out md:duration-500 md:ease-in-out mt-10 md:ml-5 md:w-[300px] md:h-[420px] md:pr-2 md:mx-5&quot;&gt;
+                &lt;img src=&quot;./images/headphone-prod-1.webp&quot; class=&quot;w-[220px] h-[130px] mt-3 md:w-[280px] md:h-[240px]&quot;
+                    alt=&quot;Product Image&quot; /&gt;
+                &lt;h2 class=&quot;ml-3 mt-2 font-bold&quot;&gt;boAt Rockerz 450 DC edition&lt;/h2&gt;
+                &lt;p class=&quot;text-sm font-semibold ml-3 mt-2&quot;&gt; Over Ear Bluetooth Headphones with Upto 15 Hours Playback, Adaptive Headband, 40mm Dynamic Driver, 300 mah Battery...&lt;/p&gt;
+                &lt;h2 class=&quot;font-bold ml-3 mt-2&quot;&gt;₹1999&lt;/h2&gt;
+            &lt;/div&gt;
+            &lt;div
+                class=&quot;bg-gray-300 w-[250px] h-[350px] rounded-lg border border-gray-600 md:cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out md:duration-500 md:ease-in-out mt-10 md:ml-5 md:w-[300px] md:h-[420px] md:pr-2 md:mx-5&quot;&gt;
+                &lt;img src=&quot;./images/headphone-prod-1.webp&quot; class=&quot;w-[220px] h-[130px] mt-3 md:w-[280px] md:h-[240px]&quot;
+                    alt=&quot;Product Image&quot; /&gt;
+                &lt;h2 class=&quot;ml-3 mt-2 font-bold&quot;&gt;boAt Rockerz 450 DC edition&lt;/h2&gt;
+                &lt;p class=&quot;text-sm font-semibold ml-3 mt-2&quot;&gt; Over Ear Bluetooth Headphones with Upto 15 Hours Playback, Adaptive Headband, 40mm Dynamic Driver, 300 mah Battery...&lt;/p&gt;
+                &lt;h2 class=&quot;font-bold ml-3 mt-2&quot;&gt;₹1999&lt;/h2&gt;
+            &lt;/div&gt;
+            &lt;div
+                class=&quot;bg-gray-300 w-[250px] h-[350px] rounded-lg border border-gray-600 md:cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out md:duration-500 md:ease-in-out mt-10 md:ml-5 md:w-[300px] md:h-[420px] md:pr-2 md:mx-5&quot;&gt;
+                &lt;img src=&quot;./images/headphone-prod-1.webp&quot; class=&quot;w-[220px] h-[130px] mt-3 md:w-[280px] md:h-[240px]&quot;
+                    alt=&quot;Product Image&quot; /&gt;
+                &lt;h2 class=&quot;ml-3 mt-2 font-bold&quot;&gt;boAt Rockerz 450 DC edition&lt;/h2&gt;
+                &lt;p class=&quot;text-sm font-semibold ml-3 mt-2&quot;&gt; Over Ear Bluetooth Headphones with Upto 15 Hours Playback, Adaptive Headband, 40mm Dynamic Driver, 300 mah Battery...&lt;/p&gt;
+                &lt;h2 class=&quot;font-bold ml-3 mt-2&quot;&gt;₹1999&lt;/h2&gt;
+            &lt;/div&gt;
+            &lt;div
+                class=&quot;bg-gray-300 w-[250px] h-[350px] rounded-lg border border-gray-600 md:cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out md:duration-500 md:ease-in-out mt-10 md:ml-5 md:w-[300px] md:h-[420px] md:pr-2 md:mx-5&quot;&gt;
+                &lt;img src=&quot;./images/headphone-prod-1.webp&quot; class=&quot;w-[220px] h-[130px] mt-3 md:w-[280px] md:h-[240px]&quot;
+                    alt=&quot;Product Image&quot; /&gt;
+                    &lt;h2 class=&quot;ml-3 mt-2 font-bold&quot;&gt;boAt Rockerz 450 DC edition&lt;/h2&gt;
+                &lt;p class=&quot;text-sm font-semibold ml-3 mt-2&quot;&gt; Over Ear Bluetooth Headphones with Upto 15 Hours Playback, Adaptive Headband, 40mm Dynamic Driver, 300 mah Battery...&lt;/p&gt;
+                &lt;h2 class=&quot;font-bold ml-3 mt-2&quot;&gt;₹1999&lt;/h2&gt;
+            &lt;/div&gt;
+            &lt;div
+                class=&quot;bg-gray-300 w-[250px] h-[350px] rounded-lg border border-gray-600 md:cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out md:duration-500 md:ease-in-out mt-10 md:ml-5 md:w-[300px] md:h-[420px] md:pr-2 md:mx-5&quot;&gt;
+                &lt;img src=&quot;./images/headphone-prod-1.webp&quot; class=&quot;w-[220px] h-[130px] mt-3 md:w-[280px] md:h-[240px]&quot;
+                    alt=&quot;Product Image&quot; /&gt;
+                &lt;h2 class=&quot;ml-3 mt-2 font-bold&quot;&gt;boAt Rockerz 450 DC edition&lt;/h2&gt;
+                &lt;p class=&quot;text-sm font-semibold ml-3 mt-2&quot;&gt; Over Ear Bluetooth Headphones with Upto 15 Hours Playback, Adaptive Headband, 40mm Dynamic Driver, 300 mah Battery...&lt;/p&gt;
+                &lt;h2 class=&quot;font-bold ml-3 mt-2&quot;&gt;₹1999&lt;/h2&gt;
+            &lt;/div&gt; --&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- ABOUT US SECTION --&gt;
+
+        &lt;div class=&quot;w-full h-full mt-5 md:mt-36 mb-8 bg-gradient-to-r from-[#434343] to-[#1f1b1b] text-white pb-16&quot;&gt;
+            &lt;h1 class=&quot;text-center font-bold text-base md:text-3xl pt-5 md:pt-20&quot;&gt;ABOUT US&lt;/h1&gt;
+            &lt;p class=&quot;p-2 mx-5 text-sm md:text-lg md:px-40 md:mt-5&quot;&gt;We&#39;re committed to providing you with the highest
+                quality gadgets and electronics that not only meet but exceed your expectations. Every product in our
+                store
+                is carefully curated and undergoes rigorous testing to ensure its performance, durability, and
+                authenticity.
+            &lt;/p&gt;
+
+            &lt;div class=&quot;flex flex-col items-center md:justify-center md:flex-row&quot;&gt;
+                &lt;img src=&quot;./images/watch-prod-2.webp&quot; class=&quot;w-[200px] h-[180px] md:w-96 md:h-80 md:ml-56&quot;
+                    alt=&quot;aboutImage&quot; /&gt;
+
+                &lt;div class=&quot;md:px-40 &quot;&gt;
+                    &lt;h2 class=&quot;font-semibold text-sm md:text-lg text-center md:text-left&quot;&gt;Your Ultimate Gadgets
+                        Destination!
+                    &lt;/h2&gt;
+                    &lt;p class=&quot;text-sm md:text-lg ml-5 mt-2 md:ml-0&quot;&gt;We&#39;re more than just an e-commerce store; we&#39;re
+                        passionate tech enthusiasts on a mission to transform the way you experience technology.&lt;/p&gt;
+
+                    &lt;div class=&quot;flex mt-3 items-center justify-start ml-20 md:mt-6 md:ml-0&quot;&gt;
+                        &lt;div class=&quot;bg-white rounded-full w-4 h-4 p-1&quot;&gt;&lt;/div&gt;
+                        &lt;h3 class=&quot;ml-3 text-sm md:text-lg&quot;&gt;Our Commitment to Quality&lt;/h3&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;flex mt-3 items-center justify-start ml-20 md:mt-6 md:ml-0&quot;&gt;
+                        &lt;div class=&quot;bg-white rounded-full w-4 h-4 p-1&quot;&gt;&lt;/div&gt;
+                        &lt;h3 class=&quot;ml-3 text-sm md:text-lg&quot;&gt;Expertise You Can Always Trust&lt;/h3&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;flex mt-3 items-center justify-start ml-20 md:mt-6 md:ml-0&quot;&gt;
+                        &lt;div class=&quot;bg-white rounded-full w-4 h-4 p-1&quot;&gt;&lt;/div&gt;
+                        &lt;h3 class=&quot;ml-3 text-sm md:text-lg&quot;&gt;Customer-Centric Approach&lt;/h3&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;mt-6 w-full h-full mb-10 md:flex md:flex-col md:justify-center items-center&quot;&gt;
+            &lt;h2 class=&quot;font-bold text-base text-center md:text-3xl pt-5 md:pt-15&quot;&gt;MESSAGE US&lt;/h2&gt;
+            &lt;p class=&quot;hidden md:block md:text-xl text-start mt-3 &quot;&gt;We want to hear from you! If you have any questions,
+                feedback, or suggestions, please &lt;br /&gt;
+                don&#39;t hesitate to contact us.&lt;/p&gt;
+
+            &lt;div class=&quot;flex mt-5 justify-center items-center p-2&quot;&gt;
+                &lt;input name=&quot;firstname&quot; type=&quot;text&quot; placeholder=&quot;First name&quot;
+                    class=&quot;w-[132px] text-sm h-10 mx-3 pl-2 text-[gray] border border-solid border-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 md:w-[425px] md:h-14 md:text-base &quot; /&gt;
+                &lt;input name=&quot;lastname&quot; type=&quot;text&quot; placeholder=&quot;Last name&quot;
+                    class=&quot;w-[132px] h-10 text-sm mx-3 pl-2 text-[gray] border border-solid border-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 md:w-[425px] md:h-14 md:text-base &quot; /&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;flex flex-col justify-center items-center&quot;&gt;
+                &lt;input name=&quot;subject&quot; type=&quot;text&quot; placeholder=&quot;Subject&quot;
+                    class=&quot;w-72 h-10 mx-3 text-sm  text-[gray] border border-solid border-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 pl-2 mt-3 md:w-[870px] md:h-14 md:text-base&quot; /&gt;
+                &lt;input name=&quot;email&quot; type=&quot;text&quot; placeholder=&quot;Email&quot;
+                    class=&quot;w-72 h-10 mx-3 text-[gray] border border-solid border-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 pl-2 text-sm mt-3 md:w-[870px] md:h-14 md:text-base&quot; /&gt;
+                &lt;textarea rows=&quot;8&quot;
+                    class=&quot;w-72 mx-3 text-[gray] border border-solid border-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 pl-2 text-sm mt-3 md:w-[870px] md:text-base&quot;&gt;Write your message here&lt;/textarea&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;md:relative md:left-[-389px]&quot;&gt;
+
+                &lt;button
+                    class=&quot;w-[120px] h-10 text-white bg-gradient-to-r from-[#434343] to-[#1f1b1b] ml-12 mt-5 text-sm rounded-lg md:w-[150px] md:h-12 md:text-base hover:opacity-90&quot;&gt;Send
+                    Message&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+
+
+    &lt;footer class=&quot;bg-gradient-to-r from-[#434343] to-[#1f1b1b] w-full h-full md:h-[40vh]&quot;&gt;
+        &lt;ul class=&quot;text-white flex justify-center items-center &quot;&gt;
+            &lt;li class=&quot;px-1 text-sm md:px-4 md:text-lg mt-[80px] md:cursor-pointer md:hover:text-gray-400&quot;&gt;About&lt;/li&gt;
+            &lt;li class=&quot;px-1 text-sm md:px-4 md:text-lg mt-[80px] md:cursor-pointer md:hover:text-gray-400&quot;&gt;Contact&lt;/li&gt;
+            &lt;li class=&quot;px-1 text-sm md:px-4 md:text-lg mt-[80px] md:cursor-pointer md:hover:text-gray-400&quot;&gt;Privacy
+                Policy&lt;/li&gt;
+            &lt;li class=&quot;px-1 text-sm md:px-4 md:text-lg mt-[80px] md:cursor-pointer md:hover:text-gray-400&quot;&gt;FAQ&lt;/li&gt;
+            &lt;li class=&quot;px-1 text-sm md:px-4 md:text-lg mt-[80px] md:cursor-pointer md:hover:text-gray-400&quot;&gt;Help&lt;/li&gt;
+            &lt;li class=&quot;px-1 text-sm md:px-4 md:text-lg mt-[80px] md:cursor-pointer md:hover:text-gray-400&quot;&gt;Terms&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;p class=&quot;text-white text-sm p-5 text-center md:text-lg &quot;&gt;This ecommerce website is created by Dikshant Dak for
+            educational and learning purposes.All copyrights are
+            belonged to Dikshant Dak. &lt;br /&gt;
+            Brandastic : 2023&lt;/p&gt;
+
+        &lt;div class=&quot;flex justify-center items-center pb-8 md:mt-10&quot;&gt;
+            &lt;a href=&quot;https://www.facebook.com&quot;&gt;&lt;i class=&quot;fa-brands fa-facebook fa-lg px-2 md:px-5&quot;
+                    style=&quot;color: #1877f2;&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;a href=&quot;https://www.instagram.com/dikshant_dak/&quot;&gt;&lt;i class=&quot;fa-brands fa-instagram fa-lg px-2 md:px-5&quot;
+                    style=&quot;color: #E84C88;&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;a href=&quot;https://www.facebook.com&quot;&gt;&lt;i class=&quot;fa-brands fa-twitter fa-lg px-2 md:px-5&quot;
+                    style=&quot;color: #1DA1F2;&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;
+    &lt;script src=&quot;script.js&quot;&gt;
+        const menuIcon = document.querySelector(&#39;.menu-icon&#39;);
+        const mobileMenu = document.querySelector(&#39;.mobile-menu&#39;);
+
+        menuIcon.addEventListener(&#39;click&#39;, () =&gt; {
+            mobileMenu.classList.toggle(&#39;active&#39;);
+        });
+    &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;‬"><span>You reacted <img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="👍" draggable="false" class="bd96tnyg b38 emoji wa _11JPr" tabindex="-1" style="background-position: 0px -40px;"> to:</span><span>&nbsp;</span>"<span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;link href="main.css" rel="stylesheet"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="preconnect" href="https://fonts.googleapis.com" /&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="preconnect" href="https://fonts.gstatic.com" /&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&amp;display=swap"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rel="stylesheet" /&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Ecommerce&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;nav
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class="justify-between pr-5 bg-gradient-to-r from-[#434343] to-[#1f1b1b] w-full h-[7vh] flex items-center md:justify-evenly shadow-lg relative z-10"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="px-2 "&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2 class="text-white text-sm md:text-xl uppercase md:cursor-pointer font-bold"&gt;Brandtastic&lt;/h2&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="flex justify-between items-center "&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="menu-icon md:hidden"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="bar w-6 h-1 bg-white mb-1"&gt;&lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="bar w-6 h-1 bg-white mb-1"&gt;&lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="bar w-6 h-1 bg-white"&gt;&lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="close-icon cursor-pointer hidden text-white"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;i class="fa-solid fa-xmark" style="color: #fff;"&gt;&lt;/i&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class="hidden md:flex justify-center items-center text-white text-sm md:text-base md:uppercase"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li class="px-1 md:px-2 md:cursor-pointer hover:opacity-80 "&gt;Home&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li class="px-1 md:px-2 md:cursor-pointer hover:opacity-80 "&gt;Categories&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li class="px-1 hidden md:px-2 md:block md:cursor-pointer hover:opacity-80 "&gt;About&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li class="px-1 hidden md:px-2 md:block md:cursor-pointer hover:opacity-80 "&gt;Contact Us&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class="mobile-menu w-full text-center text-xl pt-20&nbsp;&nbsp;hidden md:hidden "&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" class="text-white leading-10"&gt;Home&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" class="text-white leading-10"&gt;Categories&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" class="text-white leading-10"&gt;About&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" class="text-white leading-10"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- &lt;li&gt;&lt;a href="#" class="hover:text-gray-300"&gt;&lt;/a&gt;&lt;/li&gt; --&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="mx-3 hidden md:block"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;i class="fa-solid fa-magnifying-glass md:fa-lg px-1 md:px-3&nbsp;&nbsp;md:cursor-pointer" style="color: #fff;"&gt;&lt;/i&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;i class="fa-solid fa-heart md:fa-lg px-1 md:px-3 md:cursor-pointer hidden md:block"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;style="color: #fff;"&gt;&lt;/i&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;i class="fa-sharp fa-solid fa-bag-shopping md:fa-lg px-1 md:px-3 md:cursor-pointer hidden md:block"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;style="color: #fff;"&gt;&lt;/i&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="hidden md:block mr-2"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="./images/dbs2.jpg " alt="Profile Image" class="rounded-full w-6 h-6 md:w-10 md:h-8" /&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/nav&gt;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class="w-full bg-gradient-to-r from-[#434343] to-[#1f1b1b] no-underline pt-10 flex items-center justify-center "&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input name="search" id="search" type="search" placeholder="Search"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class="w-[180px] h-[50px] outline-none bg-white px-15 text-sm rounded-tl-3xl rounded-bl-3xl text-[gray] border border-solid border-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 pl-2 md:w-[500px] md:h-[60px] md:text-lg md-px-30 md:rounded-tl-3xl md:rounded-bl-3xl md:pl-6 md:mt-20" /&gt;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button id="btn-search"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class="w-[100px] h-[50px] bg-gradient-to-r from-[#434343] to-[#1f1b1b] text-white outline-none rounded-tr-3xl rounded-br-3xl text-sm md:w-[150px] md:h-[60px] md:text-base hover:opacity-80 md:rounded-tr-3xl md:rounded-br-3xl md:mt-20"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;onclick="searchedProducts()"&gt;Search&lt;/button&gt;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id="results"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class="text-white&nbsp;&nbsp;flex flex-col items-center justify-center bg-gradient-to-r from-[#434343] to-[#1f1b1b]&nbsp;&nbsp;p-4"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- &lt;div class="w</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 159; transition: none 0s ease 0s; height: 72px; transform: translateY(792px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691"><div class="_1AHcd"><div class="_13jwn"><div><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><img src="./wallpaper_files/348782143_923204408760830_6014586844669321829_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="Aditya" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Aditya</span></div><div class="Dvjym"><span class="aprpv14t">7:53 am</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪Ye weekend me krdo to tere TDC ko Monday dikkat ni ayegi‬"><span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Ye weekend me krdo to tere TDC ko Monday dikkat ni ayegi</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 158; transition: none 0s ease 0s; height: 72px; transform: translateY(720px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><img src="./wallpaper_files/236065469_232553405291596_3307982409391863982_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="Students 4th Year CS" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Students 4th Year CS</span></div><div class="Dvjym"><span class="aprpv14t">10:41 am</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪This message was deleted‬"><span dir="auto" aria-label="Maybe Deepanshu Kumawat 🤨" class="l7jjieqr _11JPr">~ Deepanshu Kumawat <img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="🤨" draggable="false" class="b99 emoji wa _11JPr" tabindex="-1" style="background-position: -60px -40px;"></span><span>:&nbsp;</span><div class="l7jjieqr tvf2evcx oq44ahr5 lb5m6g5c g97rt3p3 fewfhwl7 jdwybkuq kjemk6od"><span data-icon="recalled" class="l7jjieqr ryaohf54"><svg viewBox="0 0 24 24" height="20" width="20" preserveAspectRatio="xMidYMid meet" class="" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.75897 6.43054C8.93584 5.533 10.4057 5 12 5C15.866 5 19 8.13401 19 12C19 13.5943 18.467 15.0642 17.5695 16.241L7.75897 6.43054ZM6.35707 7.85707C5.50399 9.01706 5 10.4497 5 12C5 15.866 8.13401 19 12 19C13.5503 19 14.9829 18.496 16.1429 17.6429L6.35707 7.85707ZM12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3Z" fill="currentColor"></path></svg></span></div><span dir="auto" aria-label="" class="_2WT20 ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">This message was deleted</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">3</span></div></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 157; transition: none 0s ease 0s; height: 72px; transform: translateY(72px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><img src="./wallpaper_files/356952813_949090516368282_2960070681675115218_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="Target CDS I 2024 Exam" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Target CDS I 2024 Exam</span></div><div class="Dvjym"><span class="aprpv14t">4:59 pm</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪+91 75630 59150 joined via an invite link‬"><div class="_1sykI"><span dir="ltr" class="_11JPr">+91 75630 59150 joined via an invite link</span></div></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">14</span></div></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 156; transition: none 0s ease 0s; height: 72px; transform: translateY(648px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div role="button" class="g0rxnol2 bi2mdrpt hsk1pqkj e3yfz9gx a0vc5f8u li9elm96" style="height: 49px; width: 49px; cursor: pointer;"><img src="./wallpaper_files/341829683_1907992399566064_8634906107033934960_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex bi2mdrpt hsk1pqkj e3yfz9gx a0vc5f8u jpthtbts lyqpd7li bs7a17vp csshhazd li9elm96 _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="Jobs and Internships Updates 18" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Jobs and Internships Updates 18</span></div><div class="Dvjym"><span class="aprpv14t">11:49 am</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪Zuno Fellowship Test 2023 is back.
+Test Type : 30 Aptitude Questions in 30 minutes
+Companies hiring through this : GRID, Volopay.
+Prizes : Top 200 gets prizes like Earbuds , Bluetooth speakers.
+Eligibility : All batches eligible.
+
+Link to register : https://bit.ly/45G8ulh‬"><span dir="auto" aria-label="Maybe ~" class="l7jjieqr _11JPr">~ ~</span><span>:&nbsp;</span><span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Zuno Fellowship Test 2023 is back.
+Test Type : 30 Aptitude Questions in 30 minutes
+Companies hiring through this : GRID, Volopay.
+Prizes : Top 200 gets prizes like Earbuds , Bluetooth speakers.
+Eligibility : All batches eligible.
+
+Link to register : https://bit.ly/45G8ulh</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">20</span></div></span><span></span><span></span></div></div></div></div><span aria-label="New messages will disappear from this chat 7 days after they&#39;re sent, except when kept."></span></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 155; transition: none 0s ease 0s; height: 72px; transform: translateY(576px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div role="button" class="g0rxnol2 bi2mdrpt hsk1pqkj e3yfz9gx a0vc5f8u li9elm96" style="height: 49px; width: 49px; cursor: pointer;"><img src="./wallpaper_files/352433345_212436528332559_4221903491444377984_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex bi2mdrpt hsk1pqkj e3yfz9gx a0vc5f8u jpthtbts lyqpd7li bs7a17vp csshhazd li9elm96 _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="Jobs &amp; Internships Updates 22" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Jobs &amp; Internships Updates 22</span></div><div class="Dvjym"><span class="aprpv14t">11:50 am</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪Zuno Fellowship Test 2023 is back.
+Test Type : 30 Aptitude Questions in 30 minutes
+Companies hiring through this : GRID, Volopay.
+Prizes : Top 200 gets prizes like Earbuds , Bluetooth speakers.
+Eligibility : All batches eligible.
+
+Link to register : https://bit.ly/45G8ulh‬"><span dir="auto" aria-label="Maybe ~" class="l7jjieqr _11JPr">~ ~</span><span>:&nbsp;</span><span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Zuno Fellowship Test 2023 is back.
+Test Type : 30 Aptitude Questions in 30 minutes
+Companies hiring through this : GRID, Volopay.
+Prizes : Top 200 gets prizes like Earbuds , Bluetooth speakers.
+Eligibility : All batches eligible.
+
+Link to register : https://bit.ly/45G8ulh</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">31</span></div></span><span></span><span></span></div></div></div></div><span aria-label="New messages will disappear from this chat 7 days after they&#39;re sent, except when kept."></span></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 154; transition: none 0s ease 0s; height: 72px; transform: translateY(504px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div role="button" class="g0rxnol2 bi2mdrpt hsk1pqkj e3yfz9gx a0vc5f8u li9elm96" style="height: 49px; width: 49px; cursor: pointer;"><img src="./wallpaper_files/341927508_919530789316666_4994104300511779858_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex bi2mdrpt hsk1pqkj e3yfz9gx a0vc5f8u jpthtbts lyqpd7li bs7a17vp csshhazd li9elm96 _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="Jobs &amp; Internships Updates 19" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Jobs &amp; Internships Updates 19</span></div><div class="Dvjym"><span class="aprpv14t">11:50 am</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪Zuno Fellowship Test 2023 is back.
+Test Type : 30 Aptitude Questions in 30 minutes
+Companies hiring through this : GRID, Volopay.
+Prizes : Top 200 gets prizes like Earbuds , Bluetooth speakers.
+Eligibility : All batches eligible.
+
+Link to register : https://bit.ly/45G8ulh‬"><span dir="auto" aria-label="Maybe ~" class="l7jjieqr _11JPr">~ ~</span><span>:&nbsp;</span><span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Zuno Fellowship Test 2023 is back.
+Test Type : 30 Aptitude Questions in 30 minutes
+Companies hiring through this : GRID, Volopay.
+Prizes : Top 200 gets prizes like Earbuds , Bluetooth speakers.
+Eligibility : All batches eligible.
+
+Link to register : https://bit.ly/45G8ulh</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">24</span></div></span><span></span><span></span></div></div></div></div><span aria-label="New messages will disappear from this chat 7 days after they&#39;re sent, except when kept."></span></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 153; transition: none 0s ease 0s; height: 72px; transform: translateY(0px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><img src="./wallpaper_files/350662869_252407144069214_5695328048192889615_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="Cuvette Jobs G61🚀" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Cuvette Jobs G61<img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="🚀" draggable="false" class="b88 emoji wa _11JPr" tabindex="-1" style="background-position: -80px -80px;"></span></div><div class="Dvjym"><span class="aprpv14t">5:48 pm</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪🎯 Placement Guarantee course program
+
+After working with 6500+ partner companies, we have analyzed all the things required to get a high-paying job &amp; compiled them under our placement guarantee course program. You can now learn from our top mentors of Amazon, IIT, and Myntra:
+
+✅ 100% Placement guaranteed (CTC upto 15 LPA)
+✅ Direct referral in our 6500+ partner companies for Placements
+✅ 1:1 Doubt support, 9 Industry Projects &amp; Lifetime Access
+✅ Lowest Fees in the market, and 100% refundable if not placed
+
+Join our placement guarantee course program from here - https://bit.ly/cuvettepgp
+
+#We are trusted by 4 lakh+ Users &amp; 6500+ partner Companies‬"><span dir="auto" aria-label="Maybe Cuvette Tech" class="l7jjieqr _11JPr">~ Cuvette Tech</span><span>:&nbsp;</span><span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr"><img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="🎯" draggable="false" class="b27 emoji wa _11JPr" tabindex="-1" style="background-position: -80px -20px;"> <strong class="_11JPr">Placement Guarantee course program</strong>
+
+After working with 6500+ partner companies, we have analyzed all the things required to get a high-paying job &amp; compiled them under our placement guarantee course program. You can now learn from our top mentors of Amazon, IIT, and Myntra:
+
+<img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="✅" draggable="false" class="b6 emoji wa _11JPr" tabindex="-1" style="background-position: -80px 0px;"> 100% Placement guaranteed (CTC upto 15 LPA)
+<img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="✅" draggable="false" class="b6 emoji wa _11JPr" tabindex="-1" style="background-position: -80px 0px;"> Direct referral in our 6500+ partner companies for Placements
+<img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="✅" draggable="false" class="b6 emoji wa _11JPr" tabindex="-1" style="background-position: -80px 0px;"> 1:1 Doubt support, 9 Industry Projects &amp; Lifetime Access
+<img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="✅" draggable="false" class="b6 emoji wa _11JPr" tabindex="-1" style="background-position: -80px 0px;"> Lowest Fees in the market, and 100% refundable if not placed
+
+<strong class="_11JPr">Join our placement guarantee course program from here - https://bit.ly/cuvettepgp</strong>
+
+#We are trusted by 4 lakh+ Users &amp; 6500+ partner Companies</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">5</span></div></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 152; transition: none 0s ease 0s; height: 72px; transform: translateY(144px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><img src="./wallpaper_files/344356802_1686824381735674_5654987152143312206_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="+91 97797 22600" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">+91 97797 22600</span></div><div class="Dvjym"><span class="aprpv14t">4:17 pm</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪Hiring Dear Candidate,
+
+We have received your registration. To facilitate the processing of your job Profile with our hiring partners, we need some additional details from you.
+
+Please update your application at hr.hopingminds.com
+
+Stay updated through Insta page: https://www.instagram.com/hopingminds_/‬"><span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr"><strong class="_11JPr">Hiring</strong> Dear Candidate,&nbsp;
+&nbsp;
+We have received your registration. To facilitate the processing of your job Profile with our hiring partners, we need some additional details from you.&nbsp;
+&nbsp;
+Please update your application at hr.hopingminds.com&nbsp;
+&nbsp;
+Stay updated through Insta page: https://www.instagram.com/hopingminds_/</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">2</span></div></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 151; transition: none 0s ease 0s; height: 72px; transform: translateY(1152px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><div class="lhggkp7q qq0sjtgm tkdu00h0 p357zi0d gndfcl4n ac2vgrno ln8gz9je ppled2lx bmttxqfw ban5wmpu"><span data-icon="default-group" class=""><svg viewBox="0 0 212 212" height="212" width="212" preserveAspectRatio="xMidYMid meet" class="ln8gz9je ppled2lx" fill="none"><path class="background" d="M105.946 0.25C164.318 0.25 211.64 47.596 211.64 106C211.64 164.404 164.318 211.75 105.945 211.75C47.571 211.75 0.25 164.404 0.25 106C0.25 47.596 47.571 0.25 105.946 0.25Z" fill="#DFE5E7"></path><path class="primary" fill-rule="evenodd" clip-rule="evenodd" d="M102.282 77.2856C102.282 87.957 93.8569 96.5713 83.3419 96.5713C72.827 96.5713 64.339 87.957 64.339 77.2856C64.339 66.6143 72.827 58 83.3419 58C93.8569 58 102.282 66.6143 102.282 77.2856ZM150.35 80.1427C150.35 89.9446 142.612 97.857 132.954 97.857C123.296 97.857 115.5 89.9446 115.5 80.1427C115.5 70.3409 123.296 62.4285 132.954 62.4285C142.612 62.4285 150.35 70.3409 150.35 80.1427ZM83.3402 109.428C68.5812 109.428 39 116.95 39 131.928V143.714C39 147.25 41.8504 148 45.3343 148H121.346C124.83 148 127.68 147.25 127.68 143.714V131.928C127.68 116.95 98.0991 109.428 83.3402 109.428ZM126.804 110.853C127.707 110.871 128.485 110.886 129 110.886C143.759 110.886 174 116.95 174 131.929V141.571C174 145.107 171.15 148 167.666 148H134.854C135.551 146.007 135.995 143.821 135.995 141.571L135.75 131.071C135.75 121.51 130.136 117.858 124.162 113.971C122.772 113.067 121.363 112.15 120 111.143C119.981 111.123 119.962 111.098 119.941 111.07C119.893 111.007 119.835 110.931 119.747 110.886C121.343 110.747 124.485 110.808 126.804 110.853Z"></path></svg></span></div></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="Thunderbolt " aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Thunderbolt </span></div><div class="Dvjym"><span class="aprpv14t">Tuesday</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪Bas le aayo‬"><span dir="auto" aria-label="" class="l7jjieqr _11JPr">prem</span><span>:&nbsp;</span><span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Bas le aayo</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">2</span></div></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 150; transition: none 0s ease 0s; height: 72px; transform: translateY(1080px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><img src="./wallpaper_files/182594283_1371703463284775_6481913390191885187_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span class="_30scZ"><span dir="auto" title="SkilloVilla" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">SkilloVilla</span><div class="TxAbT"><span data-icon="psa-verified" class=""><svg viewBox="0 0 18 18" height="18" width="18" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" enable-background="new 0 0 18 18" xml:space="preserve"><polygon id="Star-2" fill="#00DA60" points="9,16 7.1,16.9 5.8,15.2 3.7,15.1 3.4,13 1.5,12 2.2,9.9 1.1,8.2 2.6,6.7 2.4,4.6 4.5,4 5.3,2 7.4,2.4 9,1.1 10.7,2.4 12.7,2 13.6,4 15.6,4.6 15.5,6.7 17,8.2 15.9,9.9 16.5,12 14.7,13 14.3,15.1 12.2,15.2 10.9,16.9 "></polygon><polygon id="Check-Icon" fill="#FFFFFF" points="13.1,7.3 12.2,6.5 8.1,10.6 5.9,8.5 5,9.4 8,12.4 "></polygon></svg></span></div><div class="_3z5ZI"></div></span></div><div class="Dvjym"><span class="aprpv14t">Tuesday</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪Still thinking...?  Opportunities knocking on your door... Hi paramveer singh rathore.
+
+Explore new horizons through Product, Business, Marketing, HR, and Finance Analytics specializations from SkilloVilla.
+
+🔥 Immerse in hands-on projects guided by experts! 
+🌠 Unleash your potential with advanced courses.
+
+🚨*Final Few hours* remaining for exclusive teacher&#39;s day scholarship - Batches are Closing Today! 
+
+Revert back to us to know more‬"><span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr"><strong class="_11JPr">Still thinking...?&nbsp;&nbsp;Opportunities knocking on your door...</strong> Hi paramveer singh rathore.
+
+Explore new horizons through <strong class="_11JPr">Product, Business, Marketing, HR, and Finance Analytics</strong> specializations from SkilloVilla.
+
+<img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="🔥" draggable="false" class="b77 emoji wa _11JPr" tabindex="-1" style="background-position: 0px -20px;"> Immerse in hands-on projects guided by experts!&nbsp;
+<img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="🌠" draggable="false" class="b21 emoji wa _11JPr" tabindex="-1" style="background-position: -60px -60px;"> Unleash your potential with advanced courses.
+
+<img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="🚨" draggable="false" class="b91 emoji wa _11JPr" tabindex="-1" style="background-position: -20px 0px;">*Final Few hours* remaining for exclusive teacher's day scholarship - <strong class="_11JPr">Batches are Closing Today!</strong>&nbsp;
+
+<strong class="_11JPr">Revert back to us to know more</strong></span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">6</span></div></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 149; transition: none 0s ease 0s; height: 72px; transform: translateY(1008px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><img src="./wallpaper_files/347068301_645463893743317_389361016987696827_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="Summer Internship Training" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Summer Internship Training</span></div><div class="Dvjym"><span class="aprpv14t">yesterday</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪FINAL REMINDER CALL
+
+Yhills.com in collaboration with top-notch certification partners (Accenture, Cognizant, British Airways, AWS , HSBC Cisco, IBM Autodesk) and various industries brings you specialized Industrial Training with Live Projects and Placement Assistance programs in a wide range of domains
+
+Interested people can fill the form:⏬
+ https://forms.gle/vNUC7bwHfmCXk1mX6‬"><span dir="auto" aria-label="Maybe Aniket Yhills" class="l7jjieqr _11JPr">~ Aniket Yhills</span><span>:&nbsp;</span><div class="l7jjieqr tvf2evcx oq44ahr5 lb5m6g5c g97rt3p3 fewfhwl7 jdwybkuq kjemk6od"><span data-icon="status-image" class=""><svg viewBox="0 0 16 20" height="20" width="16" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" enable-background="new 0 0 16 20" xml:space="preserve"><path fill="currentColor" d="M13.822,4.668H7.14l-1.068-1.09C5.922,3.425,5.624,3.3,5.409,3.3H3.531 c-0.214,0-0.51,0.128-0.656,0.285L1.276,5.296C1.13,5.453,1.01,5.756,1.01,5.971v1.06c0,0.001-0.001,0.002-0.001,0.003v6.983 c0,0.646,0.524,1.17,1.17,1.17h11.643c0.646,0,1.17-0.524,1.17-1.17v-8.18C14.992,5.191,14.468,4.668,13.822,4.668z M7.84,13.298 c-1.875,0-3.395-1.52-3.395-3.396c0-1.875,1.52-3.395,3.395-3.395s3.396,1.52,3.396,3.395C11.236,11.778,9.716,13.298,7.84,13.298z  M7.84,7.511c-1.321,0-2.392,1.071-2.392,2.392s1.071,2.392,2.392,2.392s2.392-1.071,2.392-2.392S9.161,7.511,7.84,7.511z"></path></svg></span></div><span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr"><strong class="_11JPr">FINAL REMINDER CALL</strong>
+
+Yhills.com in collaboration with top-notch certification partners <strong class="_11JPr">(Accenture, Cognizant, British Airways, AWS , HSBC Cisco, IBM Autodesk)</strong> and various industries brings you specialized Industrial Training with Live Projects and Placement Assistance programs in a wide range of domains
+
+<strong class="_11JPr">Interested people can fill the form:<img crossorigin="anonymous" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="⏬" draggable="false" class="b1 emoji wa _11JPr" tabindex="-1" style="background-position: -60px -20px;"></strong>
+&nbsp;https://forms.gle/vNUC7bwHfmCXk1mX6</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">18</span></div></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 148; transition: none 0s ease 0s; height: 72px; transform: translateY(216px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb" style="height: 49px; width: 49px;"><img src="./wallpaper_files/366393531_2060814297613631_7541357642721166073_n.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="TDC Future Program" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">TDC Future Program</span></div><div class="Dvjym"><span class="aprpv14t">4:03 pm</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪+91 98281 55699 changed this group&#39;s icon‬"><div class="_1sykI">+91 98281 55699 changed this group's icon</div></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">1</span></div></span><span></span><span></span></div></div></div></div></div></div></div><div class="lhggkp7q ln8gz9je rx9719la" role="listitem" style="z-index: 147; transition: none 0s ease 0s; height: 72px; transform: translateY(1224px);"><div class="g0rxnol2"><div tabindex="-1" class="" aria-selected="false" role="row"><div class="_199zF _3j691 _1KV7I"><div class="_1AHcd"><div class="_13jwn"><button class="i5tg98hk f9ovudaz przvwfww gx1rr48f shdiholb phqmzxqs gtscxtjd ajgl1lbb thr4l2wc cc8mgx9x eta5aym1 d9802myq e4xiuwjv p357zi0d sap93d0t bx0vhl82 hjr9v96k" tabindex="0" title="Other Subgroups" type="button"><div class="epwkujcx baeo9xnf g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb te2w76pw lf2f5g3m im448w36 ou0nhrxb k6px2m13"></div><div class="epwkujcx baeo9xnf g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb rw274qym te2w76pw lf2f5g3m im448w36 ou0nhrxb gh97vfwp"></div><div class="rw274qym"><div class="g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb te2w76pw lf2f5g3m im448w36 ou0nhrxb" style="height: 36px; width: 36px;"><div class="lhggkp7q qq0sjtgm tkdu00h0 p357zi0d gndfcl4n ac2vgrno ln8gz9je ppled2lx bmttxqfw ban5wmpu"><span data-icon="default-group" class=""><svg viewBox="0 0 212 212" height="212" width="212" preserveAspectRatio="xMidYMid meet" class="ln8gz9je ppled2lx" fill="none"><path class="background" d="M105.946 0.25C164.318 0.25 211.64 47.596 211.64 106C211.64 164.404 164.318 211.75 105.945 211.75C47.571 211.75 0.25 164.404 0.25 106C0.25 47.596 47.571 0.25 105.946 0.25Z" fill="#DFE5E7"></path><path class="primary" fill-rule="evenodd" clip-rule="evenodd" d="M102.282 77.2856C102.282 87.957 93.8569 96.5713 83.3419 96.5713C72.827 96.5713 64.339 87.957 64.339 77.2856C64.339 66.6143 72.827 58 83.3419 58C93.8569 58 102.282 66.6143 102.282 77.2856ZM150.35 80.1427C150.35 89.9446 142.612 97.857 132.954 97.857C123.296 97.857 115.5 89.9446 115.5 80.1427C115.5 70.3409 123.296 62.4285 132.954 62.4285C142.612 62.4285 150.35 70.3409 150.35 80.1427ZM83.3402 109.428C68.5812 109.428 39 116.95 39 131.928V143.714C39 147.25 41.8504 148 45.3343 148H121.346C124.83 148 127.68 147.25 127.68 143.714V131.928C127.68 116.95 98.0991 109.428 83.3402 109.428ZM126.804 110.853C127.707 110.871 128.485 110.886 129 110.886C143.759 110.886 174 116.95 174 131.929V141.571C174 145.107 171.15 148 167.666 148H134.854C135.551 146.007 135.995 143.821 135.995 141.571L135.75 131.071C135.75 121.51 130.136 117.858 124.162 113.971C122.772 113.067 121.363 112.15 120 111.143C119.981 111.123 119.962 111.098 119.941 111.07C119.893 111.007 119.835 110.931 119.747 110.886C121.343 110.747 124.485 110.808 126.804 110.853Z"></path></svg></span></div></div></div></button></div></div><div class="_8nE1Y"><div role="gridcell" aria-colindex="2" class="y_sn4"><div class="_21S-L"><span dir="auto" title="Interview Preparation 2023" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">Interview Preparation 2023</span></div><div class="Dvjym"><span class="aprpv14t">Tuesday</span></div></div><div class="_2KKXC"><div class="vQ0w7"><span class="p357zi0d r15c9g6i" title="‪https://www.instagram.com/reel/CwzpXBRBfiy/?igshid=MzRlODBiNWFlZA==‬"><span dir="auto" aria-label="Maybe Jayesh Vyas" class="l7jjieqr _11JPr">~ Jayesh Vyas</span><span>:&nbsp;</span><span dir="ltr" aria-label="" class="ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 l7jjieqr _11JPr">https://www.instagram.com/reel/CwzpXBRBfiy/?igshid=MzRlODBiNWFlZA==</span></span></div><div role="gridcell" aria-colindex="1" class="Dvjym"><span><div class="_2H6nH"><span class="l7jjieqr cfzgl7ar ei5e7seu h0viaqh7 tpmajp1w c0uhu3dl riy2oczp dsh4tgtl sy6s5v3r gz7w46tb lyutrhe2 qfejxiq4 fewfhwl7 ovhn1urg ap18qm3b ikwl5qvt j90th5db aumms1qt" aria-label="Unread">22</span></div></span><span></span><span></span></div></div></div></div></div></div></div></div></div></div><div class="cm280p3y p357zi0d gndfcl4n ac2vgrno eg3lofc5 gqi0zhd6 pz0xruzv nzcjdldu emrlamx0 swyb62mu tviruh8d"><div class="qfejxiq4 ac2vgrno p357zi0d"><div class="dsh4tgtl e1gr2w1z bsvz8e3l hmy10g0s cw3vfol9"><span data-icon="lock-small-v2" class="b9l0eqez kjemk6od l7jjieqr ms8wnqe5"><svg viewBox="0 0 13 12" height="12" width="13" preserveAspectRatio="xMidYMid meet" class=""><path d="M9.54004 3.4668C9.54004 2.87891 9.39421 2.33887 9.10254 1.84668C8.81543 1.34993 8.4235 0.958008 7.92676 0.670898C7.43457 0.379232 6.89681 0.233398 6.31348 0.233398C5.72559 0.233398 5.18327 0.379232 4.68652 0.670898C4.19434 0.958008 3.80241 1.34993 3.51074 1.84668C3.22363 2.33887 3.08008 2.87891 3.08008 3.4668V4.7041C3.05273 4.71322 2.99805 4.73828 2.91602 4.7793C2.61979 4.9388 2.39421 5.16439 2.23926 5.45605C2.15267 5.61556 2.09115 5.79102 2.05469 5.98242C2.01823 6.17383 2 6.45866 2 6.83691V9.25C2 9.62826 2.01823 9.91309 2.05469 10.1045C2.09115 10.2959 2.15267 10.4714 2.23926 10.6309C2.39421 10.9225 2.61979 11.1481 2.91602 11.3076C3.07096 11.3942 3.24414 11.4557 3.43555 11.4922C3.63151 11.5286 3.91634 11.5469 4.29004 11.5469H8.33008C8.70378 11.5469 8.98633 11.5286 9.17773 11.4922C9.3737 11.4557 9.54915 11.3942 9.7041 11.3076C9.99577 11.1527 10.2214 10.9271 10.3809 10.6309C10.4674 10.4714 10.529 10.2959 10.5654 10.1045C10.6019 9.91309 10.6201 9.62826 10.6201 9.25V6.83691C10.6201 6.45866 10.6019 6.17383 10.5654 5.98242C10.529 5.79102 10.4674 5.61556 10.3809 5.45605C10.2214 5.15983 9.99577 4.93424 9.7041 4.7793C9.62207 4.73828 9.56738 4.71322 9.54004 4.7041V3.4668ZM4.37207 3.4668C4.37207 3.11589 4.45866 2.79232 4.63184 2.49609C4.80501 2.19531 5.03971 1.95833 5.33594 1.78516C5.63672 1.61198 5.96257 1.52539 6.31348 1.52539C6.66439 1.52539 6.98796 1.61198 7.28418 1.78516C7.5804 1.95833 7.8151 2.19531 7.98828 2.49609C8.16146 2.79232 8.24805 3.11589 8.24805 3.4668V4.54004H4.37207V3.4668Z"></path></svg></span>Your personal messages are <a role="button" tabindex="0" class="ajgl1lbb" rel="noreferrer noopener" target="_blank" data-tab="4">end-to-end encrypted</a></div></div></div></div><div role="button" tabindex="0" data-tab="4" class=""><div tabindex="-1" class=""><div></div></div></div></div></div><div class="_2Ts6i _2xAQV"><div class="_64p9P"><div class="_1135V"><div class="_3SOOk" style="opacity: 1;"><img src="./wallpaper_files/native-desktop-hero_a22b846aefcd2de817624e95873b2064.png" width="320" alt=""></div><div class="_238ho" style="opacity: 1;"><h1 class="_1gO_N">Download WhatsApp for Windows</h1><div class="_1SWLN">Make calls, share your screen and get a faster experience when you download the Windows app.</div><div class="cRMR0"><button class="emrlamx0 aiput80m h1a80dm5 sta02ykp g0rxnol2 l7jjieqr hnx8ox4h f8jlpxt4 l1l4so3b le5p0ye3 m2gb0jvt rfxpxord gwd8mfxi mnh9o63b qmy7ya1v dcuuyf4k swfxs4et bgr8sfoe a6r886iw fx1ldmn8 orxa12fk bkifpc9x hjo1mxmu oixtjehm rpz5dbxo bn27j4ou snayiamo szmswy5k"><div class="tvf2evcx m0h2a7mj lb5m6g5c j7l1k36l ktfrpxia nu7pwgvd p357zi0d dnb887gk gjuq5ydh i2cterl7 ac2vgrno sap93d0t gndfcl4n"><div class="tvf2evcx m0h2a7mj lb5m6g5c j7l1k36l ktfrpxia nu7pwgvd p357zi0d dnb887gk gjuq5ydh i2cterl7 i6vnu1w3 qjslfuze ac2vgrno sap93d0t gndfcl4n">Get the app</div></div></button></div></div><div class="ubfBJ"><span data-icon="lock-small" class=""><svg viewBox="0 0 10 12" height="12" width="10" preserveAspectRatio="xMidYMid meet" class="" version="1.1"><path d="M5.00847986,1.6 C6.38255462,1.6 7.50937014,2.67435859 7.5940156,4.02703389 L7.59911976,4.1906399 L7.599,5.462 L7.75719976,5.46214385 C8.34167974,5.46214385 8.81591972,5.94158383 8.81591972,6.53126381 L8.81591972,9.8834238 C8.81591972,10.4731038 8.34167974,10.9525438 7.75719976,10.9525438 L2.25767996,10.9525438 C1.67527998,10.9525438 1.2,10.4731038 1.2,9.8834238 L1.2,6.53126381 C1.2,5.94158383 1.67423998,5.46214385 2.25767996,5.46214385 L2.416,5.462 L2.41679995,4.1906399 C2.41679995,2.81636129 3.49135449,1.68973395 4.84478101,1.60510326 L5.00847986,1.6 Z M5.00847986,2.84799995 C4.31163824,2.84799995 3.73624912,3.38200845 3.6709675,4.06160439 L3.6647999,4.1906399 L3.663,5.462 L6.35,5.462 L6.35111981,4.1906399 C6.35111981,3.53817142 5.88169076,2.99180999 5.26310845,2.87228506 L5.13749818,2.85416626 L5.00847986,2.84799995 Z" fill="currentColor"></path></svg></span> End-to-end encrypted</div></div></div></div><div class="_2Ts6i _1xFRo"><span class="lhggkp7q qq0sjtgm ebjesfe0 jxacihee tkdu00h0"></span></div></div></div></div><div id="hard_expire_time" data-time="1701377384.203"></div><link rel="preload" crossorigin="anonymous" as="fetch" href="https://web.whatsapp.com/binary-transparency-manifest-2.2337.7.json" id="binary-transparency-manifest-preload"><script src="./wallpaper_files/libsignal-protocol-ee5b8ba.min.js.download"></script><script defer="defer" src="./wallpaper_files/runtime.a6a425e81042708887d7.js.download"></script><script data-binary-transparency-hash-key="inline-js-8289e32762def081fbbb886c8e4fd154fd10ff623f32768d22faa411a9475051">/*! Copyright (c) 2023 WhatsApp Inc. All Rights Reserved. */
+(self.webpackChunkwhatsapp_web_client=self.webpackChunkwhatsapp_web_client||[]).push([[5617],{307914:e=>{e.exports=function(e){return e&&e.__esModule?e:{default:e}}},595318:e=>{e.exports=function(e){return e&&e.__esModule?e:{default:e}},e.exports.default=e.exports,e.exports.__esModule=!0},415227:(e,t)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=function(e){const t=new Error(e);if(void 0===t.stack)try{throw t}catch(e){}return t}},670983:(e,t,r)=>{"use strict";var n=r(307914);Object.defineProperty(t,"__esModule",{value:!0}),t.default=function(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"?";if(null==e)throw(0,o.default)("Unexpected null or undefined: "+t);return e};var o=n(r(415227))},801506:(e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.TICKET_URL=t.CLB_URL=t.CLB_TOKEN=t.CLB_CHECK_URL=void 0;var n=r(508247);t.CLB_CHECK_URL="https://crashlogs.whatsapp.net/wa_fls_upload_check",t.CLB_TOKEN="1063127757113399|745146ffa34413f9dbb5469f5370b7af",t.CLB_URL="https://crashlogs.whatsapp.net/wa_clb_data";const o=n.DYN_ORIGIN+"web-contact-us";t.TICKET_URL=o},207024:(e,t,r)=>{"use strict";var n=r(595318);Object.defineProperty(t,"__esModule",{value:!0}),t.getDistribution=function(){let e="unknown";return e="prod","web_prod"},t.getLogUserAgent=function(e){let t,{appVersion:r,browser:n,device:o}=e;return t="Web/"+n,`WhatsApp/${r} ${t} Device/${o}`},n(r(97359)),n(r(556869))},794858:(e,t,r)=>{"use strict";var n=r(595318),o=n(r(670983)),a=r(508247),s=r(801506),c=r(207024),u=n(r(174285)),_=r(425017);function i(e){!function(e,t){const r=window.navigator.userAgent;if(r===p&&e.includes("getElementsByTagName"))return;const n=new FormData,i=new Blob([e],{type:"text/plain"});n.append("from_jid",function(){if(f)return f;try{f=JSON.parse((0,o.default)(u.default,"localStorage").getItem(d.UNKNOWN_ID)),f&&(f=f.replace("-",""))}catch(e){}if(!f){f="unknown"+Math.floor(1e10*Math.random());const e=f;try{(0,o.default)(u.default,"localStorage").setItem(d.UNKNOWN_ID,JSON.stringify(e))}catch(e){}}return(0,o.default)(f,"id")}()),n.append("agent",(0,c.getLogUserAgent)((0,_.parseUASimple)(r,a.VERSION_BASE))),n.append("file",i,"logs.txt"),n.append("tags","load");const l=new XMLHttpRequest,I=s.CLB_URL+"?access_token="+encodeURIComponent(s.CLB_TOKEN);l.open("POST",I,!0),l.send(n)}(e)}function l(e){let{error:t,reason:r,stack:n}=e;const o=(new Date).toISOString();return`${o}: error: ${t}\n${o}: reason for logs: ${r}\n${o}: userAgent: ${window.navigator.userAgent}\n${n}`}null==window.onerror&&(window.onerror=function(e,t,r){const n=t.split("?")[0];return"Uncaught SyntaxError: Unexpected token '<'"===e?(function(e){i(l({error:"failed to load a js or css bundle",reason:`failed to load [${e.split("/")[3].replace(/^\//,"")}]`,stack:""}))}(n),!0):(i(l({error:e,reason:`Error at [${n}:${r}]`,stack:""})),!1)});const d={UNKNOWN_ID:a.UNKNOWN_ID},p="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36";let f},425017:(e,t)=>{"use strict";function r(e){return e.includes("windows")?"Windows":e.includes("mac")?"Mac OS":e.includes("linux")?"Linux":"Unparsed"}Object.defineProperty(t,"__esModule",{value:!0}),t.parseUASimple=function(e,t){const n=e.toLowerCase();return{browser:s(n),device:r(n),appVersion:t}};const n=/(chrome|firefox)\/([\w\.]+)/i,o=/(edge|opr)\/([\w\.]+)/i,a={chrome:"Chrome",edge:"Edge",opr:"Opera",firefox:"Firefox"};function s(e){const t=e.match(o)||e.match(n);return null==t?"Unparsed":`${a[t[1]]} ${t[2]}`}},174285:(e,t)=>{"use strict";let r;Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;try{r=window.localStorage}catch(e){}var n=r;t.default=n},508247:(e,t)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.WS_ORIGIN=t.WEB_PUBLIC_PATH=t.VERSION_TERTIARY=t.VERSION_STR=t.VERSION_SECONDARY=t.VERSION_PRIMARY=t.VERSION_BASE=t.USER_TIMINGS=t.UNKNOWN_ID=t.LOCALHOST_ENV_CONFIG=t.HASH_PLACEHOLDER=t.FLB_PLATFORM=t.FB_APP_ID=t.DYN_ORIGIN=t.DIFF_VERSION=t.DIFF_ID=t.BUILD_URL=t.BUILD_TIMESTAMP=t.BUILD_ID=void 0,t.DIFF_ID="",t.DIFF_VERSION="",t.LOCALHOST_ENV_CONFIG=!1,t.HASH_PLACEHOLDER="5a40f22d753009c5972a4eac50cf845d15cc98a3",t.VERSION_PRIMARY="2",t.VERSION_SECONDARY="2337",t.VERSION_TERTIARY="7",t.VERSION_BASE="2.2337.7",t.VERSION_STR="2.2337.7",t.DYN_ORIGIN="https://web.whatsapp.com/",t.WS_ORIGIN="",t.FLB_PLATFORM="web",t.FB_APP_ID="",t.UNKNOWN_ID="WAUnknownID",t.BUILD_ID="511709541",t.BUILD_TIMESTAMP="September 1, 2023",t.WEB_PUBLIC_PATH="/",t.BUILD_URL="https://web.whatsapp.com/",t.USER_TIMINGS=!1},97359:(e,t)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=function(e){return e.default}},556869:(e,t)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=function e(t){const r=new Error(t);if(void 0===r.stack)try{throw e}catch(e){}return r}}},e=>{"use strict";e(e.s=794858)}])</script><script defer="defer" src="./wallpaper_files/vendor1~app.7f14216f970118f62a35.js.download"></script><script defer="defer" src="./wallpaper_files/app.0ec0a430572bf24093f8.js.download"></script><script data-binary-transparency-hash-key="inline-js-9c8cd3d0f4d5af8c7f5cd1c45208edd308bfe472e353a50e4cbacbf6cb58627c">(i => {const l = document.getElementById(i); l &&fetch(l.href).then(b => b.text()).then(code => {const script = document.createElement('script');script.id = 'binary-transparency-manifest';script.type = 'application/json';script.innerHTML = code;document.body.append(script);});})('binary-transparency-manifest-preload');</script><script id="binary-transparency-manifest" type="application/json">{
+  "version": "2.2337.7",
+  "hash_function": "SHA256",
+  "root": "0x9ef6abc10319bb17a7c0def2f7a31dfe38acf648b79ae2fcd3d629c27c1d0da2",
+  "leaves": [
+    "0x0031b9862b406fe078e62f0c78e428edba370cd5d2d3e69b00f3d87f19fed8ad",
+    "0x0271fb402bb798c6b5671c4416641ab0b8c5e4187bae43819af641427bfc56e4",
+    "0x043494b9b5bf98ca35108e9821dda0e351ef6cb2889035ec6e05934645cb7c1d",
+    "0x05162868a1a6f22de31a6a94d6a59fc41e774ff8a6d94e85a3b71dd74e2b89ae",
+    "0x057117fc43bc876a7d67b5ffff1ce48f2daefa6d89512821e3ec8e06abf23f1b",
+    "0x05f54c2f8d5d8f7dc92caa2c49ec06fa6e8e3db6822079d191be7b2d3dab34dd",
+    "0x078f4833a0c6122a845b78a6e3f61213900e157faace44e8f9f6e36ee2870998",
+    "0x08b2c9d0ea4f2110d9a09899a7f5d4d49a2955f5c157f3e2e602862f7fc573dd",
+    "0x09554895a08f8ff5faee54fd902ca1686b945477e497a4416557df039b555403",
+    "0x0c7ba75cf9beaa9de4bf9e62af99e0284a3b310ecf793e64895b6ed89bec6c05",
+    "0x0e301cd16980ba7f98b0fe1fda867ba007666311f53a2581586cf684ed34c451",
+    "0x1045a4e9830f620e020727d8308ee123181a7456ccc204763d39d186b26cafee",
+    "0x1048d51d60474d8f7445c64eba01b8350d3cbaeb42c97369a714a7cdf75a3399",
+    "0x114e87fb001359d95f58237ede0e6da3648e9639e86ef6c5a1c4c0027e6e41a8",
+    "0x117582c833f8afc07e74191cbbb9e238127bf76f3525c5c5438a0adae6e760df",
+    "0x13bc586e7de7cedc606fb107e98c226c1a1e14a51e50e64acaf3aa84d31d4ea1",
+    "0x13c21db63803b3b8fdbe5c58a4646df3a95a2c4b53ca427f584ac67f5ddc6529",
+    "0x15c14d99231737c9399078a2340ff5e7abaf6f84abc4c4f271c49e262035cc77",
+    "0x184f7ec639bc7a686d18ac5343159a59320043af54e3db2da77cf3e26d292f15",
+    "0x1b2fc6ac632619ce725fbe925a4824ff556b2dfd83f98d75e6ca6611e6fe1514",
+    "0x1b6c77de37a8c4dc583db42964328bf8c8bf7226e594c8beb69beb9c11a0371f",
+    "0x1c9da0f8d6977828f47bc5518e0fce56cbc9b85cfc4aa66c9a3e81c515a4abf5",
+    "0x1effc8afc857b64882a00963c76e7961076094383a3a258c4461552944e2f7af",
+    "0x1f0bbe112c2a9e926fd371c2e9875c99a7abd5148664f2681f3bca7ce747f95a",
+    "0x20a249ed8f095f3f1a9dbc01129a9b2878bd01f746aa2ca0a307e7b94c02560e",
+    "0x226ea96ce31b46fb58131c1bf519e3842dbe9233c1eef9a9c6d9718baa9d912e",
+    "0x23666d3bda99f6c195d89f66795066e74f45f2c1e5448b546f580cdaceb48fda",
+    "0x251ab3cc867e6882862dc47fc8fa1441ee6a4850a581f62b424ce82466665fa5",
+    "0x27a4437df1e9614ae0080e4f4b808aee863973d7bafcab512515dc396f434602",
+    "0x280887860edfcb4d811bb2ac7b284f7eada451c447294297c481ccd48270a94c",
+    "0x285686e60c5f4a70b07827e4cee8132c2d8f793c0ac95de7a88c475547a54edd",
+    "0x2d746780b707ee424c7090febf7c1fc84350b91bb19bad168d8819c6ae740b4f",
+    "0x2f0175a2d9c3317577235bd5387a07d929177af50c00a9720a29946b1da452b1",
+    "0x30dc6d148ac1cd5d3003403e0959c730eff46df056012ad771d44d0e71577498",
+    "0x31fb15c501c3f3b720e09d58c8e2bf633344b89aec1de22504252406333e69cf",
+    "0x3262e2002f887c4f1626c80dfb88ad2d284ef0e0277ff73e4efaf8d7ed4989ae",
+    "0x34c451a1b8c08ba92821d0644cb6c55d60490c82161b9e8d0ce15830d46912e3",
+    "0x35905284198bcf844e590a422900a27289170c9d1fa2c65e7846224562231c96",
+    "0x3662af870471545aa1c3816bcd710c2e78fd4287fa3d18e58460635f08d5ed89",
+    "0x375a7c1f5f431f524860c1cbc295b55747034e77a9e866674a08871db853df3e",
+    "0x37c4b4b86e5b15033eb18e01bd001c85fc6261e32cef64eb95b2ab2ed997d5c6",
+    "0x39613cf245d892243f52585e148179510783f681940dfe4f65f9d9bbaabe82bd",
+    "0x3a8d24b300cbcda3dc8f5da52357085ab9f154ac0faab20af68c081835d1085b",
+    "0x3b3bf80131d1e3778a803817630faaed4446d26fe3a5f9b3422abd71f4bc07e0",
+    "0x3dfa2ac372a8c94aff8106fd7088edabb909bf1760759fb997df599a6c89de21",
+    "0x3e0663eb89c95665c3f1c64fa22ac1850ced36890ab32362112ef0448ca4fae6",
+    "0x3e7241e3b1f9033a2c735b9dad961e936d8412244d11565ad911635531c72d09",
+    "0x3e8ce6e8d92742a7a3887d559b7263471e7ef628c026565dd2c1a1d853a3912c",
+    "0x4027ed9d73627d84b5a874ed566d1d80a36077a2e05c1fe8243b3c1e2b061dc4",
+    "0x4177f16e30b1608765b826f98d7d9f2663b7a4eea1a821e802317246bf9bb39a",
+    "0x4422761b4331de26be56b3244fbb3b2602d97701c5214f96c28082e24126afde",
+    "0x45aa1312b8644b2f9c7a49dcbb87c9aeb3b94c929f70d1bd863c3845496ced5e",
+    "0x45ca4d9417d9fd5d86fb66ee3d244c052326b86da53318e7a793df6511cffdd2",
+    "0x45ca9cf38557cd8173981a2ae0f4b5e9d3a932d0faf8bf1fb50db20e3e1a43c3",
+    "0x45cb34ce04f2480530f4ae3004ee7830f15c88cd4070f528362e2c0878110188",
+    "0x46eb5907c15e8366884d1b59062cdbbbb69725725ea2d3db75fae0ac94ac6af3",
+    "0x48faf1797ff6527ff0d9c548e15698d6c92340d4019443e680d3326b1a77a807",
+    "0x49076196bcc2dfe22a502152b8507443e208a333166681295107e1d44e9ec8e3",
+    "0x49723e4a061d105813cf42430b6d05333a582f66b4b3f69582890787ccae753e",
+    "0x49e2d4283d7d9406f9671041da13bad410811cb08c8209fd5290c4b3b050798e",
+    "0x4a6def015ea36e88dacba3d273894111edecd6baea2a57443f05ea17db159b1c",
+    "0x4b3247565ab43f1358747927f7d9fe951709f47ebd3af7bfe30d7993ccc174ab",
+    "0x4c903e46b4f223f472a557e58da6b94835edaaf92d84d13bb835b93dbc3de8ee",
+    "0x4cea5a5694bb09c58d4d08a13cd76e9a16046dbf58198036dd45c304248df439",
+    "0x4d888bbb5ab3ebd4dbe9acb7757fe6d240d06d8a4236d74204a39014829cd2bf",
+    "0x4e94df037117b5cfdd8b0ddaee1d7b4d012522cd0f0a306539e93d20064c8875",
+    "0x4eecf5e2c56b7924d180810c83c59840670c0a909011b004fcd635fbf4f31320",
+    "0x51557bb144a142747b3c0ecafb5bb4fac4a9801ee58004d6f73c16d64faa2021",
+    "0x51602596bd2da26dcb1256a20c93fa70ac531978f242a8385cc34da771b3480e",
+    "0x52edc69d844f3e110802c2a1fe366f21b8e22f72b7843915e85e9e63fea23ecd",
+    "0x54b482773f8212df16f6c5beb2468d75ba1eb38915c7570f821c2ca8a9165a8c",
+    "0x54e1207793cf1e099e4d96901e80816d1aeb242c994b807ecb4231fa149845c5",
+    "0x55231b7063a8baa3dc4075aad3d47a57546ba497b510f75da10548671e5bba02",
+    "0x56a5b192f40d1ffd4adca937b509d512ae97f28b46821558a2bea64542361146",
+    "0x575844cdb19d1f8b00dd886c143e724014a2908f367d69e7214bb3a8128c6547",
+    "0x5764ab10c4b5a5f4020a913b90412f46d175daaf4911e814e66919b39fe4a0e6",
+    "0x57d340cb30dbc80ab7fc8702abbe80613faa349a46f581393e4ddb77e6c84dba",
+    "0x5821acffc73de212ad013e76ca33d73e096eb315997da7217a4ff013e23f51a3",
+    "0x599407a6f9c2e0d3225f6f3daf741ce762743cd7df995e1c3e4df3fb5d0acdd2",
+    "0x5ea812b5e8282677858854bdfd0dee9ebe10c3ff97c39b9c15e78e83ec4c5ba4",
+    "0x5f15862bad62809f23928251786595e779586fe711d22db33e767c54df1775b9",
+    "0x5ff297b3c1d62b3717c7c1cee4c65535fd0f0645bd144d6e865db8e51bc781e9",
+    "0x607ce292423a7e5e140712a731a68167c16c82239a58fe0a0cb3f816964e376c",
+    "0x60bcf69b65803d1a443ebbff4217951fc5dc3af9997558244e534d4e358aaaf6",
+    "0x6180fa740d82f8c8c25f05fbfda165fea2e32aad27d18e800b26ad708172e77c",
+    "0x61c38e13b4b9b394aa9222b3c7b99ffc1f0b62ec5f32afae41a7b0f401cba75a",
+    "0x61ee6ab64e137de359c3d53ed5ac6f94f2cc00a945f044aac2654df5df322557",
+    "0x64c4695cf264ec67d854045305cd5d53691e117073008e7a3fa5324204db1cfd",
+    "0x64d49db260c2fabc1d3576ed9a81b557d9b51219d0b9231085d4375479e8327a",
+    "0x67140aca8cc49d26a1b2e38ecbbb563b5e315341403d021846be0359c4438aae",
+    "0x67dc0e1025c4d2d36e326eee7d232332e0309c4fb725bd8d4bdad26520a2303b",
+    "0x692f324c1778983250d23ed7548fd91e6ebab7fc28ee75a87ebcfc8590953d24",
+    "0x6aa41f510dd31bf1b6c0fec9829aa811ae8ac20dbfe543ec1dfb52e635b53796",
+    "0x6b5ad74a25248099d90251b62a706a8dc63d93f96662cd1e0a2f2293cac1fc4b",
+    "0x6bf9e5a73ceabd34bdbf0d229f469ab06a4166180046878545436bc0bf8fc848",
+    "0x6d5abead0460c4f2ebd9369cf86ed8844f4ba083470ae3aced105613d737b08f",
+    "0x6ef9e27952ff2ffeec33cddbb861e2d20e43536c22219d6feca6d396bea830c1",
+    "0x70497e205f0835137082fe98e68ce5b6acdf25768dc18ed4edbb2192ae37aa1c",
+    "0x70d490fe86b9ce31d2038e82b69f9b62bbcfa616f502b6e23c7d62fffb937a31",
+    "0x7107654958cfebc11cf0e140c232a2d76041815518cf7ba5ee6ed4b1562f78af",
+    "0x73227a454c13fb7cd6104ad028a5f0abfb236a858e31b5e9d26d0d94402202b7",
+    "0x74db1628f91a3ca3742d741486717328ba0b924f7d8a9d4ae584208078bafae2",
+    "0x74ddf73af9c93e06c2ec7283bb8e17a9f83ad62edab168ba69e1f7d670f15990",
+    "0x76f33af56bd64b4e3eeaff5162abdd903487664f6e4d93307ebbfef44df7d347",
+    "0x7778d1fdfd5648adf355f737e4d948571ad5b5223d0539fd1db0334954dee37f",
+    "0x7871587360566d5e7ad0859585fe8be9d9afe2854eb85ec0678bbde68bcc1045",
+    "0x7883645b86d753a0860440473defa0f28c2464387bd8489361bee40b51c48583",
+    "0x78af3cf05e08c8f51f380e27c1ecd817ac2bc4d18466f39508c2602fcb7793da",
+    "0x790fd3637c5baf4a046e53da1a709accb3a3195f061f20814cfb67951589f72e",
+    "0x7a137db4a75fc0965bf2b934f38b6479ed4ec5615f743ccde49594653d2e29e4",
+    "0x7bca00cf557104a01c28b41901f0772fab62889855366b67894f3723825cc521",
+    "0x7d16b27e5532bf4e345c35885bb7ba3c59c3e113e691a44849c657e3f422c4a8",
+    "0x7d45ff47be1bb12cbf8bbeeb40bd5c983d9981006212bc5abd91cd08d145d140",
+    "0x7f3e7d681c32e8e3351d608ba9f05e637a70cc6969e7a53ff6e606c5e672b43e",
+    "0x8065bd95210acd31370cbe9de7190edade0828e6eab46ae3d71e9d21a7604735",
+    "0x827499cfae769f6747c397ff66e8bc6ff51a3a0d5c766397bf6a7f4d71dfdee4",
+    "0x8289e32762def081fbbb886c8e4fd154fd10ff623f32768d22faa411a9475051",
+    "0x87b22538ef14c3693fc476ec8ecc79823d16e511a535a8b434a30f4778dbd248",
+    "0x8a02a704817d3c8e1147f826fe656912254cb0463db170cebaf1847c3eb8df9e",
+    "0x8a277ba2f80a8dfa8dedd95310027f9c95c61627a63cd5bac26dacb9f1a7074f",
+    "0x8ac07244a8054a6159d436fdba2bb8f02cfcc06a3cbaa40d0a514ec8c848a556",
+    "0x8bea91d17e5922957dda1ff8f7b41be201cd4b5455e2d6a7e50a0c0496d4da6f",
+    "0x8e153c212e2928945a8dcc7a5adeeeb884d5d68a32caee02173f2ed0b8f0c1fb",
+    "0x8ed9262023764358a98d2f53c620e93e9975f51084a7871276337d9d65d42bd9",
+    "0x8f233574f937f268510bb38f199a3e3a611dd843cc2ee1632044360f04fd4b91",
+    "0x8fd66e1580549d4ad7e62ce77f362581248cfcb7473a8385b0439c3e86fb99c0",
+    "0x90c66dc0b01a8d4f4b204f89131d4484086087774baf4b15b898568f7391f35a",
+    "0x9190bca8033d4b00f9075407e0177b2fba4e9d7d0a737bb4a7f0b9c176fdd370",
+    "0x92b30d1258a7c8e6b05af961ee68848186e860fa9748d7a2a06347776003553f",
+    "0x92f2359d173a6e805f120c66d33f10090b9d0b2b0961ae168d1b9bb499e2ef92",
+    "0x95e1442194dc84fe7652acf7f1d8b4c998adbf41789967bb912daa5ae38c3c99",
+    "0x97088cbb24f4a9dc433c16ebd628f1ba70f2b23975783ffc47e407a765d2a0a2",
+    "0x97117f1b0f6a62328a1aa65fd916d834c65844541c8e30b5fcc92b9061f8005f",
+    "0x977ee291edfeb048aa558db422657ff41459f786f9d38365411c86d2384371cd",
+    "0x979bb71943739e643ba4bd946013ea14f792325170f65218db01bf2c7fbf4814",
+    "0x99275a22ddebc1adce5d5357384f35dd5ff39d01e1eb60de08221d70864270d8",
+    "0x99d7fae0a1548188ede9a51b68f921004b110795fb6c7995e08717233beb4b8b",
+    "0x99e217990d00c30f5b8ce45e5648096f7909a191fd6151e05136be1016d906e4",
+    "0x9c8cd3d0f4d5af8c7f5cd1c45208edd308bfe472e353a50e4cbacbf6cb58627c",
+    "0x9d108e0aa49722358f9672aa5ba0f6c47ac6e39b31111e6d21141f583a531fee",
+    "0x9d83105ac85cf5b7329e84cf85fb1c480b2d2b877a953579c8153ef49685d117",
+    "0x9e5c45e13f790bf7252259568eeb2f3619d2d8760723dd79f241167df4028288",
+    "0xa047691c1f62ff0ae5b2ca593d8a86b46ba2ff1107da62745737cda8d7b0b5c8",
+    "0xa0e3b7f0bb24ff3e4d00a79592c9bbb8f7cb46c9077b3081d6dccb13d06abe3e",
+    "0xa2277f73c76099283179788f3365bb1ecc65fe87beca2a231f95437516b932ba",
+    "0xa4f98f3e4947c2a45d10e198e4e937e1d2012f850ebf2de24fde7b6d07a2c555",
+    "0xa5de90933d830e7d5fd473d55356ea9914e952d68ee55d8e6e1b37c356dda682",
+    "0xa747c72cdb8774dbf5a419d2f653bf3884db6297d5e6989fddaaec6b1a060018",
+    "0xa9473c5b3d615f82df18e71fea60f8bfd15f7112153e6c9f47073e688d727306",
+    "0xa9ca4887f8a7f65d249c594ad67c2330d7e8c9b02b93aed71cc1c731be43b40e",
+    "0xab148c1277e0eff04c8a7e1361982e14f5a6639acfbf7fc8903809213a6fbbd6",
+    "0xabba4eb6db30818af1c21a9a57b5287fbf0f0624207e9d19f75cc58493c6661c",
+    "0xac7ce12da1bfb2f7f0908022abe80eacc7b5c8c2b30225fe5c7083aa08539f7c",
+    "0xacf671144b2283fc9bf0ed0df507936d3922dbefee289340725305f71daaa5b0",
+    "0xad7e8e94e926cda6677029370ebbe61e08429855ad522052be5bb8ee5b8ea76f",
+    "0xad7ee1e32c23f1f953d7edbab4c8c08fa2b9c3f754713b3106b9a6561bebce38",
+    "0xadff165777f7ce2d770fdcce4ee492cd38e41781c6309292ca6124ee7e68f04d",
+    "0xae415ad51dcd9c731e6415ad8ee596ec5125804e45570417312b72426f7479e8",
+    "0xaf175c3a37623245bbd2d7117f60f526a069febaaa78d0e3daac02f18d560931",
+    "0xb03dbc4b988e3438ff4b74029d157083baa524f97aa85b7415c2a54f1539c7ba",
+    "0xb2aa8a746740973d541bc56f7631ab58460ed06b98c78c8c55ff93064ad244fc",
+    "0xb32cb4726155800367b1e44af2fd940b77aed84cc9baa11c0381bf35dd993c98",
+    "0xb44c663ea6d9519f3ec71ee712e90744e46141982592a208a55e3aac598d1300",
+    "0xb49eca67f399170ebae4b9e11c090bd8c2b63c5f1628e98d97d48578f372a162",
+    "0xb5e449711357517d0629d9c0502657964e0c5eaa93aa90a80c38068e9657c38d",
+    "0xb719c79ab7212924c69ad26f30e165ac8fa5300ea8e6b0b135f95bee2860c5e9",
+    "0xb95733576ce954d623e6c3b136ecb2015f53c5491d1c84d8dd4728354b126f5b",
+    "0xb9fc5e44589d5aa2c48c1008fd02879a61a94d07861f5c38ec3bc8338f0b1f52",
+    "0xba67c89114151670bf2d3be845958464b57e2d9f9d5a69d5d983bb598c6a88ab",
+    "0xbd2fb0f9d40f3f0f4d245522fdae3a58c2020049d413f114f6ef24f88f910f53",
+    "0xbd488df048f96dd8f2972729f3deae9bb30dfdca106f11f73fee1fa5289f040d",
+    "0xbdb028d686c67ce876ca9571cc9715c6fb4e3e0a75b5cb13410425c55880bbf8",
+    "0xbf52aaebb0489e72daabb381d7a29bd5e9dfc7a596c64a3911c04774cc1fa36b",
+    "0xc32d99ab7242ba83fb77b5abc9dc56569f2456b5ade76318935dc062b590e842",
+    "0xc3c8a97c4d38c497d8616a811bbe2a210d540ed44908c858ae3924c6cdfca971",
+    "0xc45d49eff5434062df0ec4a8ba652b4db61ed1f4b8696ffc6c07158d9d0b376d",
+    "0xc46ac0e7bba465c2a8d02fb4de587804e4a79614227ea7b8529e746e2f3c1848",
+    "0xc50612f7d5df7514e4c4f3a23a9dcaf5b8a56d5212a29c8598c7e56cf7296260",
+    "0xc562f3ca0d9b59c025f17ee63d1de37730ad53c810b0298d4fc2a0f7c296b25f",
+    "0xc5c95a5f1c1b9ce2c1423431cd55b06ee0952427879d5235d7be63f9cc59c131",
+    "0xc5eac70e4e9a21b7d11b753411bc3f25800670d4316599c1f54de7a39d00f29d",
+    "0xc65015b5af47e154c8ca20b2a8a81939cb74a0f3dbb28b8907f8772bbde6c28a",
+    "0xc8c2faeb2994c723a090a97d442d2b160c36e59fae5df8461dacff1fdaf460aa",
+    "0xca340da81dc26a888962f43836878d728d225c0a3c07e9ad7c66df4f4b230653",
+    "0xcb6014a86dc3661c4ae3f98f0fe2aeb481f7a48d99e4a3d97a2a1855f95a3591",
+    "0xcbabbb3fb3ad560cd73807142b62a3fc7a7f2370630307871b1a148b027aa430",
+    "0xcbfda16d2d4e20f2a44d428598dfb41a67bc1abf46a18735b1a39a417ec2ff2e",
+    "0xce1f54c8e8d8b74bca64a8af3748ddeb1c1c490cee76360f9fb629f62e0975bb",
+    "0xce4e00338eb614579bcc1f355956852b6e239f4d53678e68bd918e95b3ff8ce9",
+    "0xcf13e0515a8be4d13d4ac25f107a5cf1af50723a23e9a5dea07d48f61624b75b",
+    "0xcf6d7e23dcadf07f3a0d7301a8ae7dca3ad606efcceb9e76af39b13f65c89ec4",
+    "0xd018de8057ccb6e9e0d93738e942c90147c41ce403bae5027fed0a8b08c00aa1",
+    "0xd04afd005ac35bb8f10da6c7cbf59004a9ac54ab6c99a313b1307beb282beb77",
+    "0xd10f1922458393ba8ee4019ff4c4b6c80380fc2ca51dd6db581be179635e8478",
+    "0xd11c72a06542fc3b43af600028cf0f996e4b9b178dfa047e18730efaf74aab0b",
+    "0xd1f6ed4e6c78b461230c92c6b3b5ce6228a5078b7aa3f2efeee593ba015facf0",
+    "0xd2174618b8e59e07ca45c246845fa4252f45877ea4cba6e77908818bac496ccb",
+    "0xd3bc913d314eb01dae109b690698f1576ec2b1f670db62e9d9c0428b57820169",
+    "0xd46cbbdb08db4fd8ca28e2e2cc462aac25095f8e12708a6efa049a79361b6307",
+    "0xd4d58b5ee2982ab0efb411863c1d050890df322e4d781b058273fbf2ff491b3b",
+    "0xd59348fb14eac530395de25450d9677d3372fe45dd0469d40c85b54a52b1e256",
+    "0xd98591c531c49c8cefb7dae02d218730ca9322834a73605c49f91501c3dd84d5",
+    "0xda2c2401bd5347c945af1c31a0da8a89562d71fa79b9ed82b823472796f0440a",
+    "0xdb0d42286fedc321db4e3911f0833cb8ecc7c0f2b4e366d287ba544e7f2f99ee",
+    "0xdb0f160701bb47b9fbd7b3f0020712137b1e077824ed5828683a8895f5299421",
+    "0xdbeeaeb21e2ebe68f5bcf33bf7501ee282363befc3a6c0678fcb1801929f6455",
+    "0xde0d34c187c8d23c15e3646787246454b36f03960e4871144967d48b71324ff0",
+    "0xded2fe39de6f5ec1baaa96187979440d349cf4de8d82658e0f89dfb6e736cd3f",
+    "0xe099f9c56e782d878d520ba9b197dc5c93f51b8b18075636ea378ab6c3c08655",
+    "0xe2bec5856a3e92a9567bb4cf6ea2e56fbf53b8c607eccd1499389272e529ca7a",
+    "0xe2c2377abb84253d842a12b3a019cf7fb6a1b8beb6d2d1640fe9c7efcec92692",
+    "0xe34de8c8ec7fbbe839ffeb4d0c34dd481588632c3a4bd61c44ea8885624109d8",
+    "0xe485f89783cdc74a845662e13c6cb1bf87604eaf1d60671edd4f929fa5876757",
+    "0xe55298486b8491e8b7a0099b51585b86d11f11f142478a07452774c9838b7cde",
+    "0xe7fd04a0d10ddf53fd70292a1cbb321bf9b2955b953db8c28f3f16059ebc1422",
+    "0xe80198fcee581c69a86a9b40416b6e81420820e7c7246b9432aa33dd8b2432df",
+    "0xe881484ee2fe49981f175bd5d0075ef7e5d66b863264038bf20244d78e95ceab",
+    "0xea33de2e556023187aa182dcc88389b9a5f0d5350651a60c2f9815b3cada0a65",
+    "0xeadc7eff0e5cec0fe9f8a290cac83a94b4616bd69d0bfba9783b69fd71dc6d1c",
+    "0xebb3687657f54cc180dd6c13ab502afc0b60298e4099b9f1d8bc82cb692c398d",
+    "0xed78fb157a163e8dc270dfcd30a9e073b399cc5c3357bcc385c335ac6ed40d2d",
+    "0xed983a38069d78031cbae5a5ab30d995620767a2072521159a316b4f53310a13",
+    "0xee93ce2e0f2c2d77bb4fdd0ff1745d21c451a19869c13390db22b25df9b30313",
+    "0xf00a9ea646e9d10ce733b5f3f736054457d8e82e0e6e02cfb21db1a8a066836d",
+    "0xf03be3d5300560f5a0a83a121c77f04d52565aafea4303a6b482772a4ddbfeed",
+    "0xf07e97ebc8b4ed5bfbe15a696de68f805495a99b60cb7f1ff990f47dfbb2b323",
+    "0xf1e5f8012a93dfa292d4d8f20e8e7bd7645e4e52cc35bc0a4700cfa00cd7400c",
+    "0xf37c16bdbf81cb77af97df98aadafe2c36af79532b34237ad8a61071a8e4f95f",
+    "0xf48d3ac5530285396f5292d53e11bfed8eeb52c81d06697b51a38c9d7044f15e",
+    "0xf4dc7456fa5f7f3b22920210ab55e92f5dee4d6f3d17a481202f1bdfe1996b90",
+    "0xf9ab178595b415321f8f966865ae2bf84a77cf0f6081caca1953c8290b497799",
+    "0xfca4330a25f79b6b6af1858786770b89863a1a9ec23c61a1a8ca9e411a0cd46c",
+    "0xfcbec31d1ddd6eaaa4405717f4ad08cfc5ba6cada2b680f65a5e810307d14f60",
+    "0xfdfe10b4ff45a367858392e878a10dd4285b70c0ee4b4c7efc56b43b44940a30",
+    "0xffe6c836dbde25343a645b6653337ce2ec7ea6d46da623cbffc3abfd0414663b"
+  ]
+}</script></body></html>
